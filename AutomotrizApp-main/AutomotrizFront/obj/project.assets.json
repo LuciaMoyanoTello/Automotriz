@@ -1015,7 +1015,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Microsoft.Data.SqlClient": "5.1.2",
           "Microsoft.ReportingServices.ReportViewerControl.Winforms": "150.1586.0",
           "Microsoft.SqlServer.Types": "160.1000.6",
           "Newtonsoft.Json": "13.0.3",

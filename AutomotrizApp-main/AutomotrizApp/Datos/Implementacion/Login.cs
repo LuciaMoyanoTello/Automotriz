@@ -28,24 +28,5 @@ namespace AutomotrizApp.Datos.Implementacion
             DBHelper.ObtenerInstancia().CerrarConexion();
             return false;
         }
-
-        List<Cliente> ILogin.ObtenerLogin()
-        {
-            List<Cliente> lClientes = new List<Cliente>();
-            DataTable tClientes = DBHelper.ObtenerInstancia().ConsultarSP("[SP_CONSULTAR_LOGIN]");
-
-            foreach (DataRow row in tClientes.Rows)
-            {
-                Cliente c = new Cliente
-                {
-                    NombreCompleto = Convert.ToString(row["Nombre Completo"]),
-                    Dni = Convert.ToString(row["DNI"]),
-                    Telefono = Convert.ToString(row["Telefono"])
-                };
-
-                lClientes.Add(c);
-            }
-            return lClientes;
-        }
     }
 }

@@ -10,6 +10,5 @@ namespace AutomotrizApp.Datos.Interfaz
     public interface ILogin
     {
         bool Logeado(Cliente c);
-        List<Cliente> ObtenerLogin();
     }
 }

@@ -100,5 +100,38 @@ namespace AutomotrizApp.Datos.Implementacion
             }
             return lProductos;
         }
+
+        bool IPresupuestoDao.Cliente(Cliente cliente)
+        {
+            DataTable tCliente = DBHelper.ObtenerInstancia().ConsultarSP("SP_CONSULTAR_CLIENTES");
+            foreach (DataRow row in tCliente.Rows)
+            {
+                cliente.Id = Convert.ToInt32(row["ID"]);
+                cliente.NombreCompleto = Convert.ToString(row["Nombre Completo"]);
+                cliente.Dni = Convert.ToString(row["DNI"]);
+                cliente.Telefono = Convert.ToString(row["Telefono"]);
+            }
+            return true;
+        }
+
+        List<Cliente>IPresupuestoDao.ObtenerCliente()
+        {
+            List<Cliente> lCliente = new List<Cliente>();
+            DataTable tCliente = DBHelper.ObtenerInstancia().ConsultarSP("SP_CONSULTAR_CLIENTES");
+
+            foreach (DataRow row in tCliente.Rows)
+            {
+                Cliente cliente = new Cliente
+                {
+                    Id = Convert.ToInt32(row["ID"]),
+                    NombreCompleto = Convert.ToString(row["Nombre Completo"]),
+                    Dni = Convert.ToString(row["DNI"]),
+                    Telefono = Convert.ToString(row["Telefono"])
+                };
+
+                lCliente.Add(cliente);
+            }
+            return lCliente;
+        }
     }
 }

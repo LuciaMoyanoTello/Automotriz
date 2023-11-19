@@ -39,7 +39,7 @@ namespace AutomotrizApp.Presentacion.ReporteVenta
             lParametros.Add(new Parametro("@input_fecha_max", dtpFechaMax.Value));
 
             DataTable tabla = new DataTable();
-            tabla = DBHelper.ObtenerInstancia().ConsultarSP("SP_REPORTE_VENTAS_X_TIPO", lParametros);
+            tabla = DBHelper.ObtenerInstancia().ConsultarSP("VentasPorTipo", lParametros);
 
             rvReporteVenta.LocalReport.DataSources.Clear();
             rvReporteVenta.LocalReport.DataSources.Add(new Microsoft.Reporting.WinForms.ReportDataSource("DataSet1", tabla));

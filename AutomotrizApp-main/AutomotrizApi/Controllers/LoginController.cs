@@ -31,19 +31,5 @@ namespace AutomotrizApi.Controllers
             }
 
         }
-        [HttpGet("/GetLogin")]
-        public IActionResult GetLogin()
-        {
-            List<Cliente> lst;
-            try
-            {
-                lst = app.GetLogin();
-                return Ok(lst);
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, "Error interno!! Intente luego!!");
-            }
-        }
     }
 }

@@ -197,12 +197,26 @@ namespace AutomotrizApp.Presentacion
 
 
         //Evento para iniciar la carga de un nuevo presupuesto a la base de datos
-        private void btnConfirmar_Click(object sender, EventArgs e)
+        private async void btnConfirmar_Click(object sender, EventArgs e)
         {
             if (ValidarConfirmar())
             {
                 nuevoPresupuesto.ClientePresupuesto = clienteNuevoPresupuesto;
-                if (DBHelper.ObtenerInstancia().Transaccion(nuevoPresupuesto))
+                //if (DBHelper.ObtenerInstancia().Transaccion(nuevoPresupuesto))
+                //{
+                //    MessageBox.Show("El Presupuesto se cargo con exito.");
+                //    LimpiarControles();
+                //}
+                //else
+                //{
+                //    MessageBox.Show("El Presupuesto no se pudo cargar.");
+                //}
+                string bodyContent = JsonConvert.SerializeObject(nuevoPresupuesto);
+
+                string url = "https://localhost:7089/presupuesto";
+                var result = await ClienteSingleton.GetInstance().PostAsync(url, bodyContent);
+
+                if (result.Equals("true"))
                 {
                     MessageBox.Show("El Presupuesto se cargo con exito.");
                     LimpiarControles();
@@ -213,6 +227,23 @@ namespace AutomotrizApp.Presentacion
                 }
 
             }
+            /*nuevo.Cliente = txtCliente.Text;
+            nuevo.Descuento = Convert.ToDouble(txtDto.Text);
+            nuevo.Fecha = Convert.ToDateTime(txtFecha.Text);
+            string bodyContent = JsonConvert.SerializeObject(nuevo);
+
+            string url = "http://localhost:5031/presupuesto";
+            var result = await ClientSingleton.GetInstance().PostAsync(url, bodyContent);
+
+            if (result.Equals("true"))//servicio.CrearPresupuesto(nuevo)
+            {
+                MessageBox.Show("Presupuesto registrado", "Informe", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.Dispose();
+            }
+            else
+            {
+                MessageBox.Show("ERROR. No se pudo registrar el presupuesto", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }*/
         }
 
 

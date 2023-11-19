@@ -31,9 +31,14 @@ namespace AutomotrizApp.Fachada.Implementacion
             return dao.CrearPresupuesto(presupuesto);
         }
 
-        List<Cliente> IAplicacion.GetLogin()
+        bool IAplicacion.Cliente(Cliente cliente)
         {
-            return login.ObtenerLogin();
+            return dao.Cliente(cliente);
+        }
+
+        List<Cliente> IAplicacion.GetClientes()
+        {
+            return dao.ObtenerCliente();
         }
 
         bool IAplicacion.InsertarProducto(Producto producto)

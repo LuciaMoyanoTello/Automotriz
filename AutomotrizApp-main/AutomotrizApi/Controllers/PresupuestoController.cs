@@ -20,12 +20,14 @@ namespace AutomotrizApi.Controllers
         public IActionResult GetProductos()
         {
             List<Producto> lst;
+            //lst = app.GetProductos();
+            //return Ok(lst);
             try
             {
                 lst = app.GetProductos();
                 return Ok(lst);
             }
-            catch (Exception ex)
+            catch
             {
                 return StatusCode(500, "Error interno!! Intente luego!!");
             }
@@ -43,6 +45,32 @@ namespace AutomotrizApi.Controllers
                 return Ok(app.GuadarPresupuesto(oPre));
             }
             catch (Exception ex)
+            {
+                return StatusCode(500, "Error interno!! Intente luego!!");
+            }
+        }
+        [HttpGet("/clientes")]
+        public IActionResult GetClientes()
+        {
+            List<Cliente> lst;
+            try
+            {
+                lst = app.GetClientes();
+                return Ok(lst);
+            }
+            catch
+            {
+                return StatusCode(500, "Error interno!! Intente luego!!");
+            }
+        }
+        [HttpPost("/clientes2")]
+        public IActionResult Clientes(Cliente c)
+        {
+            try
+            {
+                return Ok(app.Cliente(c));
+            }
+            catch
             {
                 return StatusCode(500, "Error interno!! Intente luego!!");
             }
