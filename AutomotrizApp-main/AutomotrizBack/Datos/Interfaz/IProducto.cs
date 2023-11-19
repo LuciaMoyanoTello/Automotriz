@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace AutomotrizApp.Datos.Interfaz
 {
-    public interface ILogin
+    public interface IProducto
     {
-        bool Logeado(Cliente c);
+        bool InsertarProducto(Producto p);
+        bool ActualizarProducto(Producto p);
     }
 }

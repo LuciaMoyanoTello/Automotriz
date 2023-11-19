@@ -1,5 +1,5 @@
-﻿using AutomotrizBack.Datos.Interfaz;
-using AutomotrizBack.Entidades;
+﻿using AutomotrizApp.Datos.Interfaz;
+using AutomotrizApp.Entidades;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AutomotrizBack.Datos.Implementacion
+namespace AutomotrizApp.Datos.Implementacion
 {
     public class PresupuestoDao : IPresupuestoDao
     {
@@ -99,6 +99,39 @@ namespace AutomotrizBack.Datos.Implementacion
                 lProductos.Add(producto);
             }
             return lProductos;
+        }
+
+        bool IPresupuestoDao.Cliente(Cliente cliente)
+        {
+            DataTable tCliente = DBHelper.ObtenerInstancia().ConsultarSP("SP_CONSULTAR_CLIENTES");
+            foreach (DataRow row in tCliente.Rows)
+            {
+                cliente.Id = Convert.ToInt32(row["ID"]);
+                cliente.NombreCompleto = Convert.ToString(row["Nombre Completo"]);
+                cliente.Dni = Convert.ToString(row["DNI"]);
+                cliente.Telefono = Convert.ToString(row["Telefono"]);
+            }
+            return true;
+        }
+
+        List<Cliente>IPresupuestoDao.ObtenerCliente()
+        {
+            List<Cliente> lCliente = new List<Cliente>();
+            DataTable tCliente = DBHelper.ObtenerInstancia().ConsultarSP("SP_CONSULTAR_CLIENTES");
+
+            foreach (DataRow row in tCliente.Rows)
+            {
+                Cliente cliente = new Cliente
+                {
+                    Id = Convert.ToInt32(row["ID"]),
+                    NombreCompleto = Convert.ToString(row["Nombre Completo"]),
+                    Dni = Convert.ToString(row["DNI"]),
+                    Telefono = Convert.ToString(row["Telefono"])
+                };
+
+                lCliente.Add(cliente);
+            }
+            return lCliente;
         }
     }
 }
