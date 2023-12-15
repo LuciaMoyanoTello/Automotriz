@@ -2,7 +2,6 @@
 using AutomotrizApp.Entidades;
 using System;
 using System.Collections.Generic;
-using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,10 +12,10 @@ namespace AutomotrizApp.Datos.Implementacion
     {
         public bool Logeado(Cliente c)
         {
-            DBHelper.ObtenerInstancia().Comando.Parameters.Clear();
-            DBHelper.ObtenerInstancia().Comando.Parameters.AddWithValue("@input_usuario", c.Usuario);
-            DBHelper.ObtenerInstancia().Comando.Parameters.AddWithValue("@input_pass", c.Pass);
-            DBHelper.ObtenerInstancia().LeerDB("[SP_CONSULTAR_LOGIN]");
+            List<Parametro> lista = new List<Parametro>();
+            lista.Add(new Parametro("@input_usuario", c.Usuario));
+            lista.Add(new Parametro("@input_pass", c.Pass));
+            DBHelper.ObtenerInstancia().ConsultarSP("[SP_CONSULTAR_LOGIN]", lista);
 
             if (DBHelper.ObtenerInstancia().Reader.Read())
             {

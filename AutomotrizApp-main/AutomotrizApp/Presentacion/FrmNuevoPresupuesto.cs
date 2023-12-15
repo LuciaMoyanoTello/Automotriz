@@ -1,7 +1,5 @@
 ﻿using AutomotrizApp.Datos;
 using AutomotrizApp.Entidades;
-using AutomotrizApp.Servicios;
-using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -113,26 +111,24 @@ namespace AutomotrizApp.Presentacion
 
 
         //Guarda una lista de productos dentro del combo box para el posterior uso de datos
-        private async Task CargarComboProductos()
+        private void CargarComboProductos()
         {
-            //DataTable tProductos = DBHelper.ObtenerInstancia().ConsultarSP("SP_CONSULTAR_PRODUCTOS");
-            //List<Producto> lProductos = new List<Producto>();
+            DataTable tProductos = DBHelper.ObtenerInstancia().ConsultarSP("SP_CONSULTAR_PRODUCTOS");
+            List<Producto> lProductos = new List<Producto>();
 
-            //foreach (DataRow row in tProductos.Rows)
-            //{
-            //    Producto producto = new Producto
-            //    {
-            //        Id = Convert.ToInt32(row["Id"]),
-            //        Nombre = Convert.ToString(row["Nombre"]),
-            //        Precio = Convert.ToSingle(row["Precio"]),
-            //        Tipo = Convert.ToString(row["Tipo"])
-            //    };
+            foreach (DataRow row in tProductos.Rows)
+            {
+                Producto producto = new Producto
+                {
+                    Id = Convert.ToInt32(row["Id"]),
+                    Nombre = Convert.ToString(row["Nombre"]),
+                    Precio = Convert.ToSingle(row["Precio"]),
+                    Tipo = Convert.ToString(row["Tipo"])
+                };
 
-            //    lProductos.Add(producto);
-            //}
-            string url = "https://localhost:7089/productos";
-            var dataJson = await ClienteSingleton.GetInstance().GetAsync(url);
-            List<Producto> lProductos = JsonConvert.DeserializeObject<List<Producto>>(dataJson);
+                lProductos.Add(producto);
+            }
+
             cboProducto.DataSource = lProductos;
             cboProducto.DisplayMember = "Nombre";
             cboProducto.ValueMember = "Id";
@@ -163,11 +159,11 @@ namespace AutomotrizApp.Presentacion
         //Eventos
         // ================================================================================================================================= //
         //Load
-        private async void FrmNuevoPresupuesto_Load(object sender = null, EventArgs e = null)
+        private void FrmNuevoPresupuesto_Load(object sender = null, EventArgs e = null)
         {
             LimpiarControles();
 
-            await CargarComboProductos();
+            CargarComboProductos();
             txtDniCliente.Text = FrmPrincipal.clienteActivo.Dni; //Carga el DNI del cliente que inicio sesion
 
             txtDniCliente.Focus();
@@ -197,26 +193,12 @@ namespace AutomotrizApp.Presentacion
 
 
         //Evento para iniciar la carga de un nuevo presupuesto a la base de datos
-        private async void btnConfirmar_Click(object sender, EventArgs e)
+        private void btnConfirmar_Click(object sender, EventArgs e)
         {
             if (ValidarConfirmar())
             {
                 nuevoPresupuesto.ClientePresupuesto = clienteNuevoPresupuesto;
-                //if (DBHelper.ObtenerInstancia().Transaccion(nuevoPresupuesto))
-                //{
-                //    MessageBox.Show("El Presupuesto se cargo con exito.");
-                //    LimpiarControles();
-                //}
-                //else
-                //{
-                //    MessageBox.Show("El Presupuesto no se pudo cargar.");
-                //}
-                string bodyContent = JsonConvert.SerializeObject(nuevoPresupuesto);
-
-                string url = "https://localhost:7089/presupuesto";
-                var result = await ClienteSingleton.GetInstance().PostAsync(url, bodyContent);
-
-                if (result.Equals("true"))
+                if (DBHelper.ObtenerInstancia().Transaccion(nuevoPresupuesto))
                 {
                     MessageBox.Show("El Presupuesto se cargo con exito.");
                     LimpiarControles();
@@ -227,23 +209,6 @@ namespace AutomotrizApp.Presentacion
                 }
 
             }
-            /*nuevo.Cliente = txtCliente.Text;
-            nuevo.Descuento = Convert.ToDouble(txtDto.Text);
-            nuevo.Fecha = Convert.ToDateTime(txtFecha.Text);
-            string bodyContent = JsonConvert.SerializeObject(nuevo);
-
-            string url = "http://localhost:5031/presupuesto";
-            var result = await ClientSingleton.GetInstance().PostAsync(url, bodyContent);
-
-            if (result.Equals("true"))//servicio.CrearPresupuesto(nuevo)
-            {
-                MessageBox.Show("Presupuesto registrado", "Informe", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                this.Dispose();
-            }
-            else
-            {
-                MessageBox.Show("ERROR. No se pudo registrar el presupuesto", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }*/
         }
 
 

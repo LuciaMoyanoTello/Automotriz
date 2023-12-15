@@ -28,122 +28,128 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblTitulo = new System.Windows.Forms.Label();
-            this.lblGrupo = new System.Windows.Forms.Label();
-            this.lblIntegrantes = new System.Windows.Forms.Label();
-            this.lblComision = new System.Windows.Forms.Label();
-            this.lblTextoGrupo = new System.Windows.Forms.Label();
-            this.lblComisionTexto = new System.Windows.Forms.Label();
-            this.lblIntegratesTexto = new System.Windows.Forms.Label();
-            this.SuspendLayout();
+            lblTitulo = new Label();
+            lblGrupo = new Label();
+            lblIntegrantes = new Label();
+            lblComision = new Label();
+            lblTextoGrupo = new Label();
+            lblComisionTexto = new Label();
+            lblIntegratesTexto = new Label();
+            SuspendLayout();
             // 
             // lblTitulo
             // 
-            this.lblTitulo.AutoSize = true;
-            this.lblTitulo.BackColor = System.Drawing.Color.Transparent;
-            this.lblTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitulo.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.lblTitulo.Location = new System.Drawing.Point(12, 9);
-            this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(175, 37);
-            this.lblTitulo.TabIndex = 20;
-            this.lblTitulo.Text = "Acerca De";
+            lblTitulo.AutoSize = true;
+            lblTitulo.BackColor = Color.Transparent;
+            lblTitulo.Font = new Font("Microsoft Sans Serif", 24F, FontStyle.Bold, GraphicsUnit.Point);
+            lblTitulo.ForeColor = SystemColors.ControlLight;
+            lblTitulo.Location = new Point(14, 10);
+            lblTitulo.Margin = new Padding(4, 0, 4, 0);
+            lblTitulo.Name = "lblTitulo";
+            lblTitulo.Size = new Size(175, 37);
+            lblTitulo.TabIndex = 20;
+            lblTitulo.Text = "Acerca De";
             // 
             // lblGrupo
             // 
-            this.lblGrupo.AutoSize = true;
-            this.lblGrupo.BackColor = System.Drawing.Color.Transparent;
-            this.lblGrupo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGrupo.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.lblGrupo.Location = new System.Drawing.Point(14, 76);
-            this.lblGrupo.Name = "lblGrupo";
-            this.lblGrupo.Size = new System.Drawing.Size(77, 25);
-            this.lblGrupo.TabIndex = 21;
-            this.lblGrupo.Text = "Grupo:";
+            lblGrupo.AutoSize = true;
+            lblGrupo.BackColor = Color.Transparent;
+            lblGrupo.Font = new Font("Microsoft Sans Serif", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            lblGrupo.ForeColor = SystemColors.ControlLight;
+            lblGrupo.Location = new Point(16, 88);
+            lblGrupo.Margin = new Padding(4, 0, 4, 0);
+            lblGrupo.Name = "lblGrupo";
+            lblGrupo.Size = new Size(77, 25);
+            lblGrupo.TabIndex = 21;
+            lblGrupo.Text = "Grupo:";
             // 
             // lblIntegrantes
             // 
-            this.lblIntegrantes.AutoSize = true;
-            this.lblIntegrantes.BackColor = System.Drawing.Color.Transparent;
-            this.lblIntegrantes.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIntegrantes.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.lblIntegrantes.Location = new System.Drawing.Point(14, 266);
-            this.lblIntegrantes.Name = "lblIntegrantes";
-            this.lblIntegrantes.Size = new System.Drawing.Size(125, 25);
-            this.lblIntegrantes.TabIndex = 22;
-            this.lblIntegrantes.Text = "Integrantes:";
+            lblIntegrantes.AutoSize = true;
+            lblIntegrantes.BackColor = Color.Transparent;
+            lblIntegrantes.Font = new Font("Microsoft Sans Serif", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            lblIntegrantes.ForeColor = SystemColors.ControlLight;
+            lblIntegrantes.Location = new Point(16, 307);
+            lblIntegrantes.Margin = new Padding(4, 0, 4, 0);
+            lblIntegrantes.Name = "lblIntegrantes";
+            lblIntegrantes.Size = new Size(125, 25);
+            lblIntegrantes.TabIndex = 22;
+            lblIntegrantes.Text = "Integrantes:";
             // 
             // lblComision
             // 
-            this.lblComision.AutoSize = true;
-            this.lblComision.BackColor = System.Drawing.Color.Transparent;
-            this.lblComision.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblComision.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.lblComision.Location = new System.Drawing.Point(14, 171);
-            this.lblComision.Name = "lblComision";
-            this.lblComision.Size = new System.Drawing.Size(101, 25);
-            this.lblComision.TabIndex = 23;
-            this.lblComision.Text = "Comision";
+            lblComision.AutoSize = true;
+            lblComision.BackColor = Color.Transparent;
+            lblComision.Font = new Font("Microsoft Sans Serif", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            lblComision.ForeColor = SystemColors.ControlLight;
+            lblComision.Location = new Point(16, 197);
+            lblComision.Margin = new Padding(4, 0, 4, 0);
+            lblComision.Name = "lblComision";
+            lblComision.Size = new Size(101, 25);
+            lblComision.TabIndex = 23;
+            lblComision.Text = "Comision";
             // 
             // lblTextoGrupo
             // 
-            this.lblTextoGrupo.AutoSize = true;
-            this.lblTextoGrupo.BackColor = System.Drawing.Color.Transparent;
-            this.lblTextoGrupo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTextoGrupo.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.lblTextoGrupo.Location = new System.Drawing.Point(15, 111);
-            this.lblTextoGrupo.Name = "lblTextoGrupo";
-            this.lblTextoGrupo.Size = new System.Drawing.Size(167, 20);
-            this.lblTextoGrupo.TabIndex = 24;
-            this.lblTextoGrupo.Text = "Grupo 12 (Automotriz)";
+            lblTextoGrupo.AutoSize = true;
+            lblTextoGrupo.BackColor = Color.Transparent;
+            lblTextoGrupo.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            lblTextoGrupo.ForeColor = SystemColors.ControlLight;
+            lblTextoGrupo.Location = new Point(18, 128);
+            lblTextoGrupo.Margin = new Padding(4, 0, 4, 0);
+            lblTextoGrupo.Name = "lblTextoGrupo";
+            lblTextoGrupo.Size = new Size(167, 20);
+            lblTextoGrupo.TabIndex = 24;
+            lblTextoGrupo.Text = "Grupo 12 (Automotriz)";
             // 
             // lblComisionTexto
             // 
-            this.lblComisionTexto.AutoSize = true;
-            this.lblComisionTexto.BackColor = System.Drawing.Color.Transparent;
-            this.lblComisionTexto.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblComisionTexto.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.lblComisionTexto.Location = new System.Drawing.Point(15, 206);
-            this.lblComisionTexto.Name = "lblComisionTexto";
-            this.lblComisionTexto.Size = new System.Drawing.Size(93, 20);
-            this.lblComisionTexto.TabIndex = 25;
-            this.lblComisionTexto.Text = "1w1 (Tarde)";
+            lblComisionTexto.AutoSize = true;
+            lblComisionTexto.BackColor = Color.Transparent;
+            lblComisionTexto.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            lblComisionTexto.ForeColor = SystemColors.ControlLight;
+            lblComisionTexto.Location = new Point(18, 238);
+            lblComisionTexto.Margin = new Padding(4, 0, 4, 0);
+            lblComisionTexto.Name = "lblComisionTexto";
+            lblComisionTexto.Size = new Size(93, 20);
+            lblComisionTexto.TabIndex = 25;
+            lblComisionTexto.Text = "1w1 (Tarde)";
             // 
             // lblIntegratesTexto
             // 
-            this.lblIntegratesTexto.AutoSize = true;
-            this.lblIntegratesTexto.BackColor = System.Drawing.Color.Transparent;
-            this.lblIntegratesTexto.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIntegratesTexto.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.lblIntegratesTexto.Location = new System.Drawing.Point(15, 301);
-            this.lblIntegratesTexto.Name = "lblIntegratesTexto";
-            this.lblIntegratesTexto.Size = new System.Drawing.Size(272, 60);
-            this.lblIntegratesTexto.TabIndex = 26;
-            this.lblIntegratesTexto.Text = "113857 De Maussion Gabriel\r\n114136 Moyano Tello Lucia Amancay\r\n114256 Menta Agust" +
-    "ina";
+            lblIntegratesTexto.AutoSize = true;
+            lblIntegratesTexto.BackColor = Color.Transparent;
+            lblIntegratesTexto.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            lblIntegratesTexto.ForeColor = SystemColors.ControlLight;
+            lblIntegratesTexto.Location = new Point(18, 347);
+            lblIntegratesTexto.Margin = new Padding(4, 0, 4, 0);
+            lblIntegratesTexto.Name = "lblIntegratesTexto";
+            lblIntegratesTexto.Size = new Size(272, 60);
+            lblIntegratesTexto.TabIndex = 26;
+            lblIntegratesTexto.Text = "113857 De Maussion Gabriel\r\n114136 Moyano Tello Lucia Amancay\r\n114256 Menta Agustina";
             // 
             // FrmAcercaDe
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
-            this.BackgroundImage = global::AutomotrizFront.Properties.Resources.BackgroundAcercaDe;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(770, 520);
-            this.Controls.Add(this.lblIntegratesTexto);
-            this.Controls.Add(this.lblComisionTexto);
-            this.Controls.Add(this.lblTextoGrupo);
-            this.Controls.Add(this.lblComision);
-            this.Controls.Add(this.lblIntegrantes);
-            this.Controls.Add(this.lblGrupo);
-            this.Controls.Add(this.lblTitulo);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "FrmAcercaDe";
-            this.Text = "FrmAcercaDe";
-            this.Load += new System.EventHandler(this.FrmAcercaDe_Load);
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(43, 43, 43);
+            BackgroundImage = Properties.Resources.BackgroundAcercaDe;
+            BackgroundImageLayout = ImageLayout.None;
+            ClientSize = new Size(898, 600);
+            Controls.Add(lblIntegratesTexto);
+            Controls.Add(lblComisionTexto);
+            Controls.Add(lblTextoGrupo);
+            Controls.Add(lblComision);
+            Controls.Add(lblIntegrantes);
+            Controls.Add(lblGrupo);
+            Controls.Add(lblTitulo);
+            FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(4, 3, 4, 3);
+            Name = "FrmAcercaDe";
+            Text = "FrmAcercaDe";
+            Load += FrmAcercaDe_Load;
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

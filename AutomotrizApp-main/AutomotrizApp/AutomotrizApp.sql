@@ -25,6 +25,7 @@ DROP PROC [SP_ACTUALIZAR_PRESUPUESTOS]
 DROP PROC [SP_ELIMINAR_PRESUPUESTOS]
 DROP PROC [SP_INSERTAR_DETALLES]
 DROP PROC [SP_REPORTE_VENTAS_X_TIPO]
+DROP PROC [SP_REPORTE_COMPRAS_X_CIENTE]
 
 
 --Cambio de formatos
@@ -445,22 +446,36 @@ as
 begin
 		SELECT t.tipo 'TipoProducto', sum(p.precio * d.cantidad) 'TotalVenta', pr.fecha
 		FROM PRESUPUESTOS pr
-		INNER JOIN DETALLES d on pr.id_presupuesto = d.id_presupuesto
-		INNER JOIN PRODUCTOS p on d.id_producto = p.id_producto
-		INNER JOIN TIPOS t on p.id_tipo = t.id_tipo
+		JOIN DETALLES d on pr.id_presupuesto = d.id_presupuesto
+		JOIN PRODUCTOS p on d.id_producto = p.id_producto
+		JOIN TIPOS t on p.id_tipo = t.id_tipo
 		WHERE pr.fecha between @input_fecha_min and @input_fecha_max
 		GROUP BY t.tipo, pr.fecha
-		order by TotalVenta desc
+		ORDER BY TotalVenta desc
 end
 --
 go
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
+go
+--INGRESANDO EL DNI DEL CLIENTE TRAE LA SUMA TOTAL DE LAS VENTAS DE ESE CLIENTE
+create proc [SP_REPORTE_COMPRAS_X_CIENTE]
+		@input_dni_cliente int = null  
+as
+begin
+		SELECT c.dni 'DNI', c.nombre + ' ' + c.apellido 'Cliente', sum(d.cantidad) 'Cantidad', SUM(p.precio * d.cantidad) 'Total'
+		FROM CLIENTES c
+		JOIN PRESUPUESTOS pr on c.id_cliente = pr.id_cliente
+		JOIN DETALLES d on pr.id_presupuesto = d.id_presupuesto
+		JOIN PRODUCTOS p on d.id_producto = p.id_producto
+		WHERE CONVERT(VARCHAR(50), c.dni) like '%' + isnull(CONVERT(VARCHAR(50), @input_dni_cliente), CONVERT(VARCHAR(50), c.dni)) + '%'
+		GROUP BY c.dni, c.nombre, c.apellido
+		ORDER BY 'Total' desc
+end
+-- exec [SP_REPORTE_COMPRAS_X_CIENTE] 
+go
 
+-----------------------------------------------------------------------------------------------------------------------------------------------
 
-
-
-
-
-
+select * from presupuestos

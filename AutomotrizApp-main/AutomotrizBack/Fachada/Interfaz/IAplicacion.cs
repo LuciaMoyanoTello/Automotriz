@@ -1,11 +1,12 @@
-﻿using AutomotrizApp.Entidades;
+﻿using AutomotrizBack.Entidades;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AutomotrizApp.Fachada.Interfaz
+namespace AutomotrizBack.Fachada.Interfaz
 {
     public interface IAplicacion
     {
@@ -13,7 +14,10 @@ namespace AutomotrizApp.Fachada.Interfaz
         List<Cliente> GetClientes();
         bool Cliente(Cliente cliente);
         bool GuadarPresupuesto(Presupuesto presupuesto);
-        bool Logeado(Cliente c);
-        bool InsertarProducto(Producto producto);
+        DataTable Logeado(Cliente c);
+        void InsertarProducto(Producto producto);
+        void ActualizarProducto(Producto producto);
+        bool EliminarProducto(Producto producto);
+        bool EliminarPresupuesto(Presupuesto presupuesto);
     }
 }

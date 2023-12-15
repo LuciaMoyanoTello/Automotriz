@@ -28,251 +28,261 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnConfirmar = new System.Windows.Forms.Button();
-            this.lblTitulo = new System.Windows.Forms.Label();
-            this.lblTipoProducto = new System.Windows.Forms.Label();
-            this.lblDniCliente = new System.Windows.Forms.Label();
-            this.lblFecha = new System.Windows.Forms.Label();
-            this.txtCantidad = new System.Windows.Forms.TextBox();
-            this.dgvDetallesNuevoPresupuesto = new System.Windows.Forms.DataGridView();
-            this.nombreProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.precioProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cantidadProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.subTotalDetalle = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Eliminar = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.btnAgregar = new System.Windows.Forms.Button();
-            this.cboProducto = new System.Windows.Forms.ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.dtpFecha = new System.Windows.Forms.DateTimePicker();
-            this.txtDniCliente = new System.Windows.Forms.TextBox();
-            this.lblTotalTexto = new System.Windows.Forms.Label();
-            this.lblTotalValor = new System.Windows.Forms.Label();
-            this.btnCancelar = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvDetallesNuevoPresupuesto)).BeginInit();
-            this.SuspendLayout();
+            btnConfirmar = new Button();
+            lblTitulo = new Label();
+            lblTipoProducto = new Label();
+            lblDniCliente = new Label();
+            lblFecha = new Label();
+            txtCantidad = new TextBox();
+            dgvDetallesNuevoPresupuesto = new DataGridView();
+            btnAgregar = new Button();
+            cboProducto = new ComboBox();
+            label1 = new Label();
+            dtpFecha = new DateTimePicker();
+            txtDniCliente = new TextBox();
+            lblTotalTexto = new Label();
+            lblTotalValor = new Label();
+            btnCancelar = new Button();
+            nombreProducto = new DataGridViewTextBoxColumn();
+            precioProducto = new DataGridViewTextBoxColumn();
+            cantidadProducto = new DataGridViewTextBoxColumn();
+            subTotalDetalle = new DataGridViewTextBoxColumn();
+            Eliminar = new DataGridViewButtonColumn();
+            ((System.ComponentModel.ISupportInitialize)dgvDetallesNuevoPresupuesto).BeginInit();
+            SuspendLayout();
             // 
             // btnConfirmar
             // 
-            this.btnConfirmar.Location = new System.Drawing.Point(683, 486);
-            this.btnConfirmar.Name = "btnConfirmar";
-            this.btnConfirmar.Size = new System.Drawing.Size(75, 23);
-            this.btnConfirmar.TabIndex = 5;
-            this.btnConfirmar.Text = "Confirmar";
-            this.btnConfirmar.UseVisualStyleBackColor = true;
-            this.btnConfirmar.Click += new System.EventHandler(this.btnConfirmar_Click);
+            btnConfirmar.Location = new Point(797, 561);
+            btnConfirmar.Margin = new Padding(4, 3, 4, 3);
+            btnConfirmar.Name = "btnConfirmar";
+            btnConfirmar.Size = new Size(88, 27);
+            btnConfirmar.TabIndex = 5;
+            btnConfirmar.Text = "Confirmar";
+            btnConfirmar.UseVisualStyleBackColor = true;
+            btnConfirmar.Click += btnConfirmar_Click;
             // 
             // lblTitulo
             // 
-            this.lblTitulo.AutoSize = true;
-            this.lblTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitulo.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.lblTitulo.Location = new System.Drawing.Point(12, 12);
-            this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(201, 25);
-            this.lblTitulo.TabIndex = 27;
-            this.lblTitulo.Text = "Nuevo Presupuesto";
+            lblTitulo.AutoSize = true;
+            lblTitulo.Font = new Font("Microsoft Sans Serif", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            lblTitulo.ForeColor = SystemColors.ControlLight;
+            lblTitulo.Location = new Point(14, 14);
+            lblTitulo.Margin = new Padding(4, 0, 4, 0);
+            lblTitulo.Name = "lblTitulo";
+            lblTitulo.Size = new Size(201, 25);
+            lblTitulo.TabIndex = 27;
+            lblTitulo.Text = "Nuevo Presupuesto";
             // 
             // lblTipoProducto
             // 
-            this.lblTipoProducto.AutoSize = true;
-            this.lblTipoProducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTipoProducto.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.lblTipoProducto.Location = new System.Drawing.Point(361, 127);
-            this.lblTipoProducto.Name = "lblTipoProducto";
-            this.lblTipoProducto.Size = new System.Drawing.Size(56, 15);
-            this.lblTipoProducto.TabIndex = 26;
-            this.lblTipoProducto.Text = "Cantidad";
+            lblTipoProducto.AutoSize = true;
+            lblTipoProducto.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            lblTipoProducto.ForeColor = SystemColors.ControlLight;
+            lblTipoProducto.Location = new Point(421, 147);
+            lblTipoProducto.Margin = new Padding(4, 0, 4, 0);
+            lblTipoProducto.Name = "lblTipoProducto";
+            lblTipoProducto.Size = new Size(56, 15);
+            lblTipoProducto.TabIndex = 26;
+            lblTipoProducto.Text = "Cantidad";
             // 
             // lblDniCliente
             // 
-            this.lblDniCliente.AutoSize = true;
-            this.lblDniCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDniCliente.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.lblDniCliente.Location = new System.Drawing.Point(63, 92);
-            this.lblDniCliente.Name = "lblDniCliente";
-            this.lblDniCliente.Size = new System.Drawing.Size(28, 15);
-            this.lblDniCliente.TabIndex = 25;
-            this.lblDniCliente.Text = "DNI";
+            lblDniCliente.AutoSize = true;
+            lblDniCliente.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            lblDniCliente.ForeColor = SystemColors.ControlLight;
+            lblDniCliente.Location = new Point(74, 106);
+            lblDniCliente.Margin = new Padding(4, 0, 4, 0);
+            lblDniCliente.Name = "lblDniCliente";
+            lblDniCliente.Size = new Size(28, 15);
+            lblDniCliente.TabIndex = 25;
+            lblDniCliente.Text = "DNI";
             // 
             // lblFecha
             // 
-            this.lblFecha.AutoSize = true;
-            this.lblFecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFecha.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.lblFecha.Location = new System.Drawing.Point(50, 57);
-            this.lblFecha.Name = "lblFecha";
-            this.lblFecha.Size = new System.Drawing.Size(41, 15);
-            this.lblFecha.TabIndex = 22;
-            this.lblFecha.Text = "Fecha";
+            lblFecha.AutoSize = true;
+            lblFecha.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            lblFecha.ForeColor = SystemColors.ControlLight;
+            lblFecha.Location = new Point(58, 66);
+            lblFecha.Margin = new Padding(4, 0, 4, 0);
+            lblFecha.Name = "lblFecha";
+            lblFecha.Size = new Size(41, 15);
+            lblFecha.TabIndex = 22;
+            lblFecha.Text = "Fecha";
             // 
             // txtCantidad
             // 
-            this.txtCantidad.Location = new System.Drawing.Point(423, 126);
-            this.txtCantidad.Name = "txtCantidad";
-            this.txtCantidad.Size = new System.Drawing.Size(237, 20);
-            this.txtCantidad.TabIndex = 3;
-            this.txtCantidad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNumerico_KeyPress);
+            txtCantidad.Location = new Point(493, 145);
+            txtCantidad.Margin = new Padding(4, 3, 4, 3);
+            txtCantidad.Name = "txtCantidad";
+            txtCantidad.Size = new Size(276, 23);
+            txtCantidad.TabIndex = 3;
+            txtCantidad.KeyPress += txtNumerico_KeyPress;
             // 
             // dgvDetallesNuevoPresupuesto
             // 
-            this.dgvDetallesNuevoPresupuesto.AllowUserToAddRows = false;
-            this.dgvDetallesNuevoPresupuesto.AllowUserToDeleteRows = false;
-            this.dgvDetallesNuevoPresupuesto.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dgvDetallesNuevoPresupuesto.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dgvDetallesNuevoPresupuesto.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvDetallesNuevoPresupuesto.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.nombreProducto,
-            this.precioProducto,
-            this.cantidadProducto,
-            this.subTotalDetalle,
-            this.Eliminar});
-            this.dgvDetallesNuevoPresupuesto.Location = new System.Drawing.Point(12, 165);
-            this.dgvDetallesNuevoPresupuesto.Name = "dgvDetallesNuevoPresupuesto";
-            this.dgvDetallesNuevoPresupuesto.ReadOnly = true;
-            this.dgvDetallesNuevoPresupuesto.RowHeadersVisible = false;
-            this.dgvDetallesNuevoPresupuesto.Size = new System.Drawing.Size(746, 300);
-            this.dgvDetallesNuevoPresupuesto.TabIndex = 6;
-            this.dgvDetallesNuevoPresupuesto.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDetallesNuevoPresupuesto_CellContentClick);
-            // 
-            // nombreProducto
-            // 
-            this.nombreProducto.HeaderText = "Producto";
-            this.nombreProducto.Name = "nombreProducto";
-            this.nombreProducto.ReadOnly = true;
-            // 
-            // precioProducto
-            // 
-            this.precioProducto.HeaderText = "Precio";
-            this.precioProducto.Name = "precioProducto";
-            this.precioProducto.ReadOnly = true;
-            // 
-            // cantidadProducto
-            // 
-            this.cantidadProducto.HeaderText = "Cantidad";
-            this.cantidadProducto.Name = "cantidadProducto";
-            this.cantidadProducto.ReadOnly = true;
-            // 
-            // subTotalDetalle
-            // 
-            this.subTotalDetalle.HeaderText = "Sub-Total";
-            this.subTotalDetalle.Name = "subTotalDetalle";
-            this.subTotalDetalle.ReadOnly = true;
-            // 
-            // Eliminar
-            // 
-            this.Eliminar.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.Eliminar.HeaderText = "Accion";
-            this.Eliminar.Name = "Eliminar";
-            this.Eliminar.ReadOnly = true;
-            this.Eliminar.Width = 46;
+            dgvDetallesNuevoPresupuesto.AllowUserToAddRows = false;
+            dgvDetallesNuevoPresupuesto.AllowUserToDeleteRows = false;
+            dgvDetallesNuevoPresupuesto.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgvDetallesNuevoPresupuesto.BorderStyle = BorderStyle.None;
+            dgvDetallesNuevoPresupuesto.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvDetallesNuevoPresupuesto.Columns.AddRange(new DataGridViewColumn[] { nombreProducto, precioProducto, cantidadProducto, subTotalDetalle, Eliminar });
+            dgvDetallesNuevoPresupuesto.Location = new Point(14, 190);
+            dgvDetallesNuevoPresupuesto.Margin = new Padding(4, 3, 4, 3);
+            dgvDetallesNuevoPresupuesto.Name = "dgvDetallesNuevoPresupuesto";
+            dgvDetallesNuevoPresupuesto.ReadOnly = true;
+            dgvDetallesNuevoPresupuesto.RowHeadersVisible = false;
+            dgvDetallesNuevoPresupuesto.Size = new Size(870, 346);
+            dgvDetallesNuevoPresupuesto.TabIndex = 6;
+            dgvDetallesNuevoPresupuesto.CellContentClick += dgvDetallesNuevoPresupuesto_CellContentClick;
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(683, 124);
-            this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(75, 23);
-            this.btnAgregar.TabIndex = 4;
-            this.btnAgregar.Text = "Agregar";
-            this.btnAgregar.UseVisualStyleBackColor = true;
-            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
+            btnAgregar.Location = new Point(797, 143);
+            btnAgregar.Margin = new Padding(4, 3, 4, 3);
+            btnAgregar.Name = "btnAgregar";
+            btnAgregar.Size = new Size(88, 27);
+            btnAgregar.TabIndex = 4;
+            btnAgregar.Text = "Agregar";
+            btnAgregar.UseVisualStyleBackColor = true;
+            btnAgregar.Click += btnAgregar_Click;
             // 
             // cboProducto
             // 
-            this.cboProducto.FormattingEnabled = true;
-            this.cboProducto.Location = new System.Drawing.Point(98, 125);
-            this.cboProducto.Name = "cboProducto";
-            this.cboProducto.Size = new System.Drawing.Size(237, 21);
-            this.cboProducto.TabIndex = 2;
+            cboProducto.FormattingEnabled = true;
+            cboProducto.Location = new Point(114, 144);
+            cboProducto.Margin = new Padding(4, 3, 4, 3);
+            cboProducto.Name = "cboProducto";
+            cboProducto.Size = new Size(276, 23);
+            cboProducto.TabIndex = 2;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.label1.Location = new System.Drawing.Point(35, 127);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(56, 15);
-            this.label1.TabIndex = 30;
-            this.label1.Text = "Producto";
+            label1.AutoSize = true;
+            label1.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.ForeColor = SystemColors.ControlLight;
+            label1.Location = new Point(41, 147);
+            label1.Margin = new Padding(4, 0, 4, 0);
+            label1.Name = "label1";
+            label1.Size = new Size(56, 15);
+            label1.TabIndex = 30;
+            label1.Text = "Producto";
             // 
             // dtpFecha
             // 
-            this.dtpFecha.CustomFormat = "";
-            this.dtpFecha.Location = new System.Drawing.Point(98, 57);
-            this.dtpFecha.Name = "dtpFecha";
-            this.dtpFecha.Size = new System.Drawing.Size(237, 20);
-            this.dtpFecha.TabIndex = 0;
-            this.dtpFecha.Value = new System.DateTime(2023, 11, 6, 0, 0, 0, 0);
+            dtpFecha.CustomFormat = "";
+            dtpFecha.Location = new Point(114, 66);
+            dtpFecha.Margin = new Padding(4, 3, 4, 3);
+            dtpFecha.Name = "dtpFecha";
+            dtpFecha.Size = new Size(276, 23);
+            dtpFecha.TabIndex = 0;
+            dtpFecha.Value = new DateTime(2023, 11, 6, 0, 0, 0, 0);
             // 
             // txtDniCliente
             // 
-            this.txtDniCliente.Location = new System.Drawing.Point(98, 91);
-            this.txtDniCliente.Name = "txtDniCliente";
-            this.txtDniCliente.Size = new System.Drawing.Size(237, 20);
-            this.txtDniCliente.TabIndex = 1;
-            this.txtDniCliente.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNumerico_KeyPress);
+            txtDniCliente.Location = new Point(114, 105);
+            txtDniCliente.Margin = new Padding(4, 3, 4, 3);
+            txtDniCliente.Name = "txtDniCliente";
+            txtDniCliente.Size = new Size(276, 23);
+            txtDniCliente.TabIndex = 1;
+            txtDniCliente.KeyPress += txtNumerico_KeyPress;
             // 
             // lblTotalTexto
             // 
-            this.lblTotalTexto.AutoSize = true;
-            this.lblTotalTexto.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotalTexto.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.lblTotalTexto.Location = new System.Drawing.Point(515, 489);
-            this.lblTotalTexto.Name = "lblTotalTexto";
-            this.lblTotalTexto.Size = new System.Drawing.Size(54, 16);
-            this.lblTotalTexto.TabIndex = 35;
-            this.lblTotalTexto.Text = "Total:  $";
+            lblTotalTexto.AutoSize = true;
+            lblTotalTexto.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            lblTotalTexto.ForeColor = SystemColors.ControlLight;
+            lblTotalTexto.Location = new Point(601, 564);
+            lblTotalTexto.Margin = new Padding(4, 0, 4, 0);
+            lblTotalTexto.Name = "lblTotalTexto";
+            lblTotalTexto.Size = new Size(54, 16);
+            lblTotalTexto.TabIndex = 35;
+            lblTotalTexto.Text = "Total:  $";
             // 
             // lblTotalValor
             // 
-            this.lblTotalValor.AutoSize = true;
-            this.lblTotalValor.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotalValor.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.lblTotalValor.Location = new System.Drawing.Point(565, 489);
-            this.lblTotalValor.Name = "lblTotalValor";
-            this.lblTotalValor.Size = new System.Drawing.Size(14, 16);
-            this.lblTotalValor.TabIndex = 36;
-            this.lblTotalValor.Text = "0";
+            lblTotalValor.AutoSize = true;
+            lblTotalValor.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            lblTotalValor.ForeColor = SystemColors.ControlLight;
+            lblTotalValor.Location = new Point(659, 564);
+            lblTotalValor.Margin = new Padding(4, 0, 4, 0);
+            lblTotalValor.Name = "lblTotalValor";
+            lblTotalValor.Size = new Size(14, 16);
+            lblTotalValor.TabIndex = 36;
+            lblTotalValor.Text = "0";
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(12, 482);
-            this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(75, 23);
-            this.btnCancelar.TabIndex = 39;
-            this.btnCancelar.Text = "Cancelar";
-            this.btnCancelar.UseVisualStyleBackColor = true;
-            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
+            btnCancelar.Location = new Point(14, 556);
+            btnCancelar.Margin = new Padding(4, 3, 4, 3);
+            btnCancelar.Name = "btnCancelar";
+            btnCancelar.Size = new Size(88, 27);
+            btnCancelar.TabIndex = 39;
+            btnCancelar.Text = "Cancelar";
+            btnCancelar.UseVisualStyleBackColor = true;
+            btnCancelar.Click += btnCancelar_Click;
+            // 
+            // nombreProducto
+            // 
+            nombreProducto.HeaderText = "Producto";
+            nombreProducto.Name = "nombreProducto";
+            nombreProducto.ReadOnly = true;
+            // 
+            // precioProducto
+            // 
+            precioProducto.HeaderText = "Precio";
+            precioProducto.Name = "precioProducto";
+            precioProducto.ReadOnly = true;
+            // 
+            // cantidadProducto
+            // 
+            cantidadProducto.HeaderText = "Cantidad";
+            cantidadProducto.Name = "cantidadProducto";
+            cantidadProducto.ReadOnly = true;
+            // 
+            // subTotalDetalle
+            // 
+            subTotalDetalle.HeaderText = "Sub-Total";
+            subTotalDetalle.Name = "subTotalDetalle";
+            subTotalDetalle.ReadOnly = true;
+            // 
+            // Eliminar
+            // 
+            Eliminar.AutoSizeMode = DataGridViewAutoSizeColumnMode.DisplayedCells;
+            Eliminar.HeaderText = "Accion";
+            Eliminar.Name = "Eliminar";
+            Eliminar.ReadOnly = true;
+            Eliminar.Width = 50;
             // 
             // FrmNuevoPresupuesto
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
-            this.ClientSize = new System.Drawing.Size(770, 520);
-            this.Controls.Add(this.btnCancelar);
-            this.Controls.Add(this.lblTotalValor);
-            this.Controls.Add(this.lblTotalTexto);
-            this.Controls.Add(this.txtDniCliente);
-            this.Controls.Add(this.dtpFecha);
-            this.Controls.Add(this.cboProducto);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.btnAgregar);
-            this.Controls.Add(this.btnConfirmar);
-            this.Controls.Add(this.lblTitulo);
-            this.Controls.Add(this.lblTipoProducto);
-            this.Controls.Add(this.lblDniCliente);
-            this.Controls.Add(this.lblFecha);
-            this.Controls.Add(this.txtCantidad);
-            this.Controls.Add(this.dgvDetallesNuevoPresupuesto);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "FrmNuevoPresupuesto";
-            this.Text = "FrmNuevoPresupuesto";
-            this.Load += new System.EventHandler(this.FrmNuevoPresupuesto_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvDetallesNuevoPresupuesto)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(43, 43, 43);
+            ClientSize = new Size(898, 600);
+            Controls.Add(btnCancelar);
+            Controls.Add(lblTotalValor);
+            Controls.Add(lblTotalTexto);
+            Controls.Add(txtDniCliente);
+            Controls.Add(dtpFecha);
+            Controls.Add(cboProducto);
+            Controls.Add(label1);
+            Controls.Add(btnAgregar);
+            Controls.Add(btnConfirmar);
+            Controls.Add(lblTitulo);
+            Controls.Add(lblTipoProducto);
+            Controls.Add(lblDniCliente);
+            Controls.Add(lblFecha);
+            Controls.Add(txtCantidad);
+            Controls.Add(dgvDetallesNuevoPresupuesto);
+            FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(4, 3, 4, 3);
+            Name = "FrmNuevoPresupuesto";
+            Text = "FrmNuevoPresupuesto";
+            Load += FrmNuevoPresupuesto_Load;
+            ((System.ComponentModel.ISupportInitialize)dgvDetallesNuevoPresupuesto).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -289,13 +299,13 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DateTimePicker dtpFecha;
         private System.Windows.Forms.TextBox txtDniCliente;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nombreProducto;
-        private System.Windows.Forms.DataGridViewTextBoxColumn precioProducto;
-        private System.Windows.Forms.DataGridViewTextBoxColumn cantidadProducto;
-        private System.Windows.Forms.DataGridViewTextBoxColumn subTotalDetalle;
-        private System.Windows.Forms.DataGridViewButtonColumn Eliminar;
         private System.Windows.Forms.Label lblTotalTexto;
         private System.Windows.Forms.Label lblTotalValor;
         private System.Windows.Forms.Button btnCancelar;
+        private DataGridViewTextBoxColumn nombreProducto;
+        private DataGridViewTextBoxColumn precioProducto;
+        private DataGridViewTextBoxColumn cantidadProducto;
+        private DataGridViewTextBoxColumn subTotalDetalle;
+        private DataGridViewButtonColumn Eliminar;
     }
 }

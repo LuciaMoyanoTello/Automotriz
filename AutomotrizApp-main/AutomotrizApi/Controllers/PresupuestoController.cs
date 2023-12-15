@@ -1,6 +1,6 @@
-﻿using AutomotrizApp.Entidades;
-using AutomotrizApp.Fachada.Implementacion;
-using AutomotrizApp.Fachada.Interfaz;
+﻿using AutomotrizBack.Entidades;
+using AutomotrizBack.Fachada.Implementacion;
+using AutomotrizBack.Fachada.Interfaz;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using static System.Net.Mime.MediaTypeNames;
@@ -16,24 +16,24 @@ namespace AutomotrizApi.Controllers
         {
             app = new Aplicacion();
         }
-        [HttpGet("/productos")]
+
+
+        [HttpGet("ComboProductos")]
         public IActionResult GetProductos()
         {
             List<Producto> lst;
-            //lst = app.GetProductos();
-            //return Ok(lst);
             try
             {
                 lst = app.GetProductos();
                 return Ok(lst);
             }
-            catch
+            catch (Exception ex)
             {
                 return StatusCode(500, "Error interno!! Intente luego!!");
             }
         }
 
-        [HttpPost("/presupuesto")]
+        [HttpPost("InsertPresupuesto")]
         public IActionResult PostPresupuesto(Presupuesto oPre)
         {
             try
@@ -49,30 +49,17 @@ namespace AutomotrizApi.Controllers
                 return StatusCode(500, "Error interno!! Intente luego!!");
             }
         }
-        [HttpGet("/clientes")]
-        public IActionResult GetClientes()
-        {
-            List<Cliente> lst;
-            try
-            {
-                lst = app.GetClientes();
-                return Ok(lst);
-            }
-            catch
-            {
-                return StatusCode(500, "Error interno!! Intente luego!!");
-            }
-        }
-        [HttpPost("/clientes2")]
-        public IActionResult Clientes(Cliente c)
+        [HttpPost("DeletePresupuesto")]
+        public IActionResult DeletePresupuesto(Presupuesto p)
         {
             try
             {
-                return Ok(app.Cliente(c));
+                app.EliminarPresupuesto(p);
+                return Ok();
             }
             catch
             {
-                return StatusCode(500, "Error interno!! Intente luego!!");
+                return BadRequest("Error del servidor");
             }
         }
     }

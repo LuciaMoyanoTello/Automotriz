@@ -35,7 +35,6 @@
             pnControles = new Panel();
             btnAcercaDe = new Button();
             pnMenuReportes = new Panel();
-            btnReporte3 = new Button();
             btnReporte2 = new Button();
             btnReporte1 = new Button();
             btnMenuReportes = new Button();
@@ -84,10 +83,10 @@
             btnSalir.FlatStyle = FlatStyle.Flat;
             btnSalir.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point);
             btnSalir.ForeColor = Color.IndianRed;
-            btnSalir.Location = new Point(0, 575);
+            btnSalir.Location = new Point(0, 578);
             btnSalir.Margin = new Padding(4, 3, 4, 3);
             btnSalir.Name = "btnSalir";
-            btnSalir.Size = new Size(198, 48);
+            btnSalir.Size = new Size(198, 45);
             btnSalir.TabIndex = 0;
             btnSalir.Text = "Salir";
             btnSalir.UseVisualStyleBackColor = true;
@@ -103,7 +102,7 @@
             pnControles.Location = new Point(0, 179);
             pnControles.Margin = new Padding(4, 3, 4, 3);
             pnControles.Name = "pnControles";
-            pnControles.Size = new Size(218, 389);
+            pnControles.Size = new Size(217, 390);
             pnControles.TabIndex = 2;
             // 
             // btnAcercaDe
@@ -115,11 +114,11 @@
             btnAcercaDe.Font = new Font("Microsoft Sans Serif", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
             btnAcercaDe.ForeColor = SystemColors.ControlLight;
             btnAcercaDe.ImageAlign = ContentAlignment.MiddleRight;
-            btnAcercaDe.Location = new Point(0, 484);
+            btnAcercaDe.Location = new Point(0, 405);
             btnAcercaDe.Margin = new Padding(4, 3, 4, 3);
             btnAcercaDe.Name = "btnAcercaDe";
             btnAcercaDe.Padding = new Padding(18, 0, 0, 0);
-            btnAcercaDe.Size = new Size(201, 48);
+            btnAcercaDe.Size = new Size(200, 45);
             btnAcercaDe.TabIndex = 1;
             btnAcercaDe.Text = "Acerca de";
             btnAcercaDe.TextAlign = ContentAlignment.MiddleLeft;
@@ -128,35 +127,15 @@
             // 
             // pnMenuReportes
             // 
-            pnMenuReportes.Controls.Add(btnReporte3);
             pnMenuReportes.Controls.Add(btnReporte2);
             pnMenuReportes.Controls.Add(btnReporte1);
             pnMenuReportes.Controls.Add(btnMenuReportes);
             pnMenuReportes.Dock = DockStyle.Top;
-            pnMenuReportes.Location = new Point(0, 290);
+            pnMenuReportes.Location = new Point(0, 270);
             pnMenuReportes.Margin = new Padding(4, 3, 4, 3);
             pnMenuReportes.Name = "pnMenuReportes";
-            pnMenuReportes.Size = new Size(201, 194);
+            pnMenuReportes.Size = new Size(200, 135);
             pnMenuReportes.TabIndex = 5;
-            // 
-            // btnReporte3
-            // 
-            btnReporte3.Dock = DockStyle.Top;
-            btnReporte3.FlatAppearance.BorderColor = Color.White;
-            btnReporte3.FlatAppearance.BorderSize = 0;
-            btnReporte3.FlatStyle = FlatStyle.Flat;
-            btnReporte3.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            btnReporte3.ForeColor = SystemColors.ControlLight;
-            btnReporte3.Location = new Point(0, 144);
-            btnReporte3.Margin = new Padding(4, 3, 4, 3);
-            btnReporte3.Name = "btnReporte3";
-            btnReporte3.Padding = new Padding(29, 0, 0, 0);
-            btnReporte3.Size = new Size(201, 48);
-            btnReporte3.TabIndex = 5;
-            btnReporte3.Text = "Reporte 3";
-            btnReporte3.TextAlign = ContentAlignment.MiddleLeft;
-            btnReporte3.UseVisualStyleBackColor = true;
-            btnReporte3.Click += btnReporte3_Click;
             // 
             // btnReporte2
             // 
@@ -166,13 +145,13 @@
             btnReporte2.FlatStyle = FlatStyle.Flat;
             btnReporte2.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
             btnReporte2.ForeColor = SystemColors.ControlLight;
-            btnReporte2.Location = new Point(0, 96);
+            btnReporte2.Location = new Point(0, 90);
             btnReporte2.Margin = new Padding(4, 3, 4, 3);
             btnReporte2.Name = "btnReporte2";
             btnReporte2.Padding = new Padding(29, 0, 0, 0);
-            btnReporte2.Size = new Size(201, 48);
+            btnReporte2.Size = new Size(200, 45);
             btnReporte2.TabIndex = 4;
-            btnReporte2.Text = "Reporte 2";
+            btnReporte2.Text = "Compras x cliente";
             btnReporte2.TextAlign = ContentAlignment.MiddleLeft;
             btnReporte2.UseVisualStyleBackColor = true;
             btnReporte2.Click += btnReporte2_Click;
@@ -185,13 +164,13 @@
             btnReporte1.FlatStyle = FlatStyle.Flat;
             btnReporte1.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
             btnReporte1.ForeColor = SystemColors.ControlLight;
-            btnReporte1.Location = new Point(0, 48);
+            btnReporte1.Location = new Point(0, 45);
             btnReporte1.Margin = new Padding(4, 3, 4, 3);
             btnReporte1.Name = "btnReporte1";
             btnReporte1.Padding = new Padding(29, 0, 0, 0);
-            btnReporte1.Size = new Size(201, 48);
+            btnReporte1.Size = new Size(200, 45);
             btnReporte1.TabIndex = 3;
-            btnReporte1.Text = "Reporte 1";
+            btnReporte1.Text = "Ganancia x tipo";
             btnReporte1.TextAlign = ContentAlignment.MiddleLeft;
             btnReporte1.UseVisualStyleBackColor = true;
             btnReporte1.Click += btnReporte1_Click;
@@ -209,7 +188,7 @@
             btnMenuReportes.Margin = new Padding(4, 3, 4, 3);
             btnMenuReportes.Name = "btnMenuReportes";
             btnMenuReportes.Padding = new Padding(18, 0, 0, 0);
-            btnMenuReportes.Size = new Size(201, 48);
+            btnMenuReportes.Size = new Size(200, 45);
             btnMenuReportes.TabIndex = 0;
             btnMenuReportes.Text = "Reportes";
             btnMenuReportes.TextAlign = ContentAlignment.MiddleLeft;
@@ -222,10 +201,10 @@
             pnMenuPresupuesto.Controls.Add(btnConsultarPresupuestos);
             pnMenuPresupuesto.Controls.Add(btnMenuPresupuesto);
             pnMenuPresupuesto.Dock = DockStyle.Top;
-            pnMenuPresupuesto.Location = new Point(0, 145);
+            pnMenuPresupuesto.Location = new Point(0, 135);
             pnMenuPresupuesto.Margin = new Padding(4, 3, 4, 3);
             pnMenuPresupuesto.Name = "pnMenuPresupuesto";
-            pnMenuPresupuesto.Size = new Size(201, 145);
+            pnMenuPresupuesto.Size = new Size(200, 135);
             pnMenuPresupuesto.TabIndex = 4;
             // 
             // btnNuevoPresupuesto
@@ -236,11 +215,11 @@
             btnNuevoPresupuesto.FlatStyle = FlatStyle.Flat;
             btnNuevoPresupuesto.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
             btnNuevoPresupuesto.ForeColor = SystemColors.ControlLight;
-            btnNuevoPresupuesto.Location = new Point(0, 96);
+            btnNuevoPresupuesto.Location = new Point(0, 90);
             btnNuevoPresupuesto.Margin = new Padding(4, 3, 4, 3);
             btnNuevoPresupuesto.Name = "btnNuevoPresupuesto";
             btnNuevoPresupuesto.Padding = new Padding(29, 0, 0, 0);
-            btnNuevoPresupuesto.Size = new Size(201, 48);
+            btnNuevoPresupuesto.Size = new Size(200, 45);
             btnNuevoPresupuesto.TabIndex = 2;
             btnNuevoPresupuesto.Text = "Nuevo Presupuesto";
             btnNuevoPresupuesto.TextAlign = ContentAlignment.MiddleLeft;
@@ -255,11 +234,11 @@
             btnConsultarPresupuestos.FlatStyle = FlatStyle.Flat;
             btnConsultarPresupuestos.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
             btnConsultarPresupuestos.ForeColor = SystemColors.ControlLight;
-            btnConsultarPresupuestos.Location = new Point(0, 48);
+            btnConsultarPresupuestos.Location = new Point(0, 45);
             btnConsultarPresupuestos.Margin = new Padding(4, 3, 4, 3);
             btnConsultarPresupuestos.Name = "btnConsultarPresupuestos";
             btnConsultarPresupuestos.Padding = new Padding(29, 0, 0, 0);
-            btnConsultarPresupuestos.Size = new Size(201, 48);
+            btnConsultarPresupuestos.Size = new Size(200, 45);
             btnConsultarPresupuestos.TabIndex = 1;
             btnConsultarPresupuestos.Text = "Consultar Presupuestos";
             btnConsultarPresupuestos.TextAlign = ContentAlignment.MiddleLeft;
@@ -279,7 +258,7 @@
             btnMenuPresupuesto.Margin = new Padding(4, 3, 4, 3);
             btnMenuPresupuesto.Name = "btnMenuPresupuesto";
             btnMenuPresupuesto.Padding = new Padding(18, 0, 0, 0);
-            btnMenuPresupuesto.Size = new Size(201, 48);
+            btnMenuPresupuesto.Size = new Size(200, 45);
             btnMenuPresupuesto.TabIndex = 0;
             btnMenuPresupuesto.Text = "Presupuesto";
             btnMenuPresupuesto.TextAlign = ContentAlignment.MiddleLeft;
@@ -295,7 +274,7 @@
             pnMenuProductos.Location = new Point(0, 0);
             pnMenuProductos.Margin = new Padding(4, 3, 4, 3);
             pnMenuProductos.Name = "pnMenuProductos";
-            pnMenuProductos.Size = new Size(201, 145);
+            pnMenuProductos.Size = new Size(200, 135);
             pnMenuProductos.TabIndex = 0;
             // 
             // btnNuevoProducto
@@ -306,11 +285,11 @@
             btnNuevoProducto.FlatStyle = FlatStyle.Flat;
             btnNuevoProducto.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
             btnNuevoProducto.ForeColor = SystemColors.ControlLight;
-            btnNuevoProducto.Location = new Point(0, 96);
+            btnNuevoProducto.Location = new Point(0, 90);
             btnNuevoProducto.Margin = new Padding(4, 3, 4, 3);
             btnNuevoProducto.Name = "btnNuevoProducto";
             btnNuevoProducto.Padding = new Padding(29, 0, 0, 0);
-            btnNuevoProducto.Size = new Size(201, 48);
+            btnNuevoProducto.Size = new Size(200, 45);
             btnNuevoProducto.TabIndex = 2;
             btnNuevoProducto.Text = "Nuevo Producto";
             btnNuevoProducto.TextAlign = ContentAlignment.MiddleLeft;
@@ -325,11 +304,11 @@
             btnConsultarProductos.FlatStyle = FlatStyle.Flat;
             btnConsultarProductos.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
             btnConsultarProductos.ForeColor = SystemColors.ControlLight;
-            btnConsultarProductos.Location = new Point(0, 48);
+            btnConsultarProductos.Location = new Point(0, 45);
             btnConsultarProductos.Margin = new Padding(4, 3, 4, 3);
             btnConsultarProductos.Name = "btnConsultarProductos";
             btnConsultarProductos.Padding = new Padding(29, 0, 0, 0);
-            btnConsultarProductos.Size = new Size(201, 48);
+            btnConsultarProductos.Size = new Size(200, 45);
             btnConsultarProductos.TabIndex = 1;
             btnConsultarProductos.Text = "Consultar Productos";
             btnConsultarProductos.TextAlign = ContentAlignment.MiddleLeft;
@@ -349,7 +328,7 @@
             btnMenuProductos.Margin = new Padding(4, 3, 4, 3);
             btnMenuProductos.Name = "btnMenuProductos";
             btnMenuProductos.Padding = new Padding(18, 0, 0, 0);
-            btnMenuProductos.Size = new Size(201, 48);
+            btnMenuProductos.Size = new Size(200, 45);
             btnMenuProductos.TabIndex = 0;
             btnMenuProductos.Text = "Productos";
             btnMenuProductos.TextAlign = ContentAlignment.MiddleLeft;
@@ -371,10 +350,10 @@
             // pbUserIcon
             // 
             pbUserIcon.Image = Properties.Resources.UserIcon;
-            pbUserIcon.Location = new Point(42, 12);
+            pbUserIcon.Location = new Point(50, 19);
             pbUserIcon.Margin = new Padding(4, 3, 4, 3);
             pbUserIcon.Name = "pbUserIcon";
-            pbUserIcon.Size = new Size(114, 113);
+            pbUserIcon.Size = new Size(98, 98);
             pbUserIcon.TabIndex = 1;
             pbUserIcon.TabStop = false;
             // 
@@ -391,17 +370,17 @@
             lblUsuario.Size = new Size(198, 52);
             lblUsuario.TabIndex = 0;
             lblUsuario.Text = "Usuario";
-            lblUsuario.TextAlign = ContentAlignment.BottomCenter;
+            lblUsuario.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // pnMuestra
             // 
             pnMuestra.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             pnMuestra.BackColor = Color.FromArgb(43, 43, 43);
             pnMuestra.Controls.Add(lblReloj);
-            pnMuestra.Location = new Point(210, 12);
+            pnMuestra.Location = new Point(209, 12);
             pnMuestra.Margin = new Padding(4, 3, 4, 3);
             pnMuestra.Name = "pnMuestra";
-            pnMuestra.Size = new Size(1058, 683);
+            pnMuestra.Size = new Size(898, 600);
             pnMuestra.TabIndex = 1;
             // 
             // lblReloj
@@ -409,7 +388,7 @@
             lblReloj.AutoSize = true;
             lblReloj.Font = new Font("Microsoft Sans Serif", 72F, FontStyle.Regular, GraphicsUnit.Point);
             lblReloj.ForeColor = Color.FromArgb(72, 72, 72);
-            lblReloj.Location = new Point(206, 238);
+            lblReloj.Location = new Point(241, 246);
             lblReloj.Margin = new Padding(4, 0, 4, 0);
             lblReloj.Name = "lblReloj";
             lblReloj.Size = new Size(417, 108);
@@ -470,7 +449,6 @@
         private System.Windows.Forms.Label lblReloj;
         private System.Windows.Forms.Timer tmrReloj;
         private System.Windows.Forms.Panel pnMenuReportes;
-        private System.Windows.Forms.Button btnReporte3;
         private System.Windows.Forms.Button btnReporte2;
         private System.Windows.Forms.Button btnReporte1;
     }

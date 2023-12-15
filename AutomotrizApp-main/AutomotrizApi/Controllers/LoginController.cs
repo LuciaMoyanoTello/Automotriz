@@ -1,6 +1,6 @@
-﻿using AutomotrizApp.Entidades;
-using AutomotrizApp.Fachada.Implementacion;
-using AutomotrizApp.Fachada.Interfaz;
+﻿using AutomotrizBack.Entidades;
+using AutomotrizBack.Fachada.Implementacion;
+using AutomotrizBack.Fachada.Interfaz;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -17,17 +17,25 @@ namespace AutomotrizApi.Controllers
             app = new Aplicacion();
         }
 
-        [HttpPost("PostLogin")]
-        public IActionResult PostLogin(Cliente c)
+        [HttpPost("GetLogin")]
+        public IActionResult GetLogin(Cliente c)
         {
-            try
+            if (c is not null)
             {
-                return Ok(app.Logeado(c));
+                try
+                {
+                    return Ok(app.Logeado(c));
 
+                }
+                catch (Exception)
+                {
+                    return BadRequest("Error del Servidor");
+                }
             }
-            catch (Exception)
+            else
             {
-                return BadRequest("Error del Servidor");
+                return BadRequest("Intente nuevamente");
+
             }
 
         }

@@ -1,5 +1,7 @@
 ﻿using AutomotrizBack.Datos;
 using AutomotrizBack.Entidades;
+using AutomotrizBack.Servicios;
+using Newtonsoft.Json;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -96,31 +98,44 @@ namespace AutomotrizFront.Presentacion
 
 
         //Inicia insert o update con la base de datos, el camino se toma dependiendo si "producto" es null o no
-        private void btnConfirmar_Click(object sender, EventArgs e)
+        private async void btnConfirmar_Click(object sender, EventArgs e)
         {
             List<Parametro> lista = new List<Parametro>();
 
             if (producto != null)
             {
-                lista.Add(new Parametro("@input_id_producto", Convert.ToString(producto.Id)));
-                if (txtNombreProducto.Text != "") { lista.Add(new Parametro("@input_nombre", txtNombreProducto.Text)); }
-                if (txtPrecioProducto.Text != "") { lista.Add(new Parametro("@input_precio", txtPrecioProducto.Text)); }
-                if (cboTipoProducto.SelectedIndex != -1) { lista.Add(new Parametro("@input_id_tipo", cboTipoProducto.SelectedValue)); }
+                if(ValidarConfirmar())
+                {
+                    //Creacion de producto
+                    Producto nuevoProducto = new Producto(  producto.Id,
+                                                            txtNombreProducto.Text,
+                                                            Convert.ToSingle(txtPrecioProducto.Text),
+                                                            Convert.ToString(cboTipoProducto.SelectedValue));
 
-                DBHelper.ObtenerInstancia().ConsultarSP("SP_ACTUALIZAR_PRODUCTOS", lista);
-                MessageBox.Show("El producto se actualizo correctamente");
-                FrmPrincipal.instancia.CambiarFormulario(FrmPrincipal.instancia.ConsultarProductos = new FrmConsultarProductos());
+                    string bodyContent = JsonConvert.SerializeObject(nuevoProducto);
+
+                    string url = "https://localhost:7089/api/Producto/UpdateProducto";
+                    var result = await ClienteSingleton.GetInstance().PostAsync(url, bodyContent);
+
+                    MessageBox.Show("El producto se actualizo correctamente");
+                    FrmPrincipal.instancia.CambiarFormulario(FrmPrincipal.instancia.ConsultarProductos = new FrmConsultarProductos());
+                }
             }
             else
             {
                 if (ValidarConfirmar())
                 {
-                    lista.Add(new Parametro("@input_id_producto", Convert.ToString(idNuevoProducto)));
-                    lista.Add(new Parametro("@input_nombre", txtNombreProducto.Text));
-                    lista.Add(new Parametro("@input_precio", txtPrecioProducto.Text));
-                    lista.Add(new Parametro("@input_id_tipo", cboTipoProducto.SelectedValue));
+                    //Creacion de producto
+                    Producto nuevoProducto = new Producto(  idNuevoProducto,
+                                                            txtNombreProducto.Text,
+                                                            Convert.ToSingle(txtPrecioProducto.Text),
+                                                            Convert.ToString(cboTipoProducto.SelectedValue));
 
-                    DBHelper.ObtenerInstancia().ConsultarSP("SP_INSERTAR_PRODUCTOS", lista);
+                    string bodyContent = JsonConvert.SerializeObject(nuevoProducto);
+
+                    string url = "https://localhost:7089/api/Producto/InsertProducto";
+                    var result = await ClienteSingleton.GetInstance().PostAsync(url, bodyContent);
+
                     MessageBox.Show("El producto se creo correctamente");
                     FrmNuevoProducto_Load();
                 }
@@ -137,7 +152,7 @@ namespace AutomotrizFront.Presentacion
             }
             else
             {
-                LimpiarControles();
+                FrmNuevoProducto_Load();
             }
         }
 
@@ -150,7 +165,6 @@ namespace AutomotrizFront.Presentacion
                 e.Handled = true;
             }
         }
-
 
         // ================================================================================================================================= //
     }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucia\\OneDrive\\Documentos\\2 año\\TP\\AutomotrizApp-main\\AutomotrizBack\\AutomotrizBack.csproj": {}
+    "C:\\Users\\lucia\\OneDrive\\Escritorio\\Documentos\\2 año\\Automotriz\\AutomotrizApp-main\\AutomotrizBack\\AutomotrizBack.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucia\\OneDrive\\Documentos\\2 año\\TP\\AutomotrizApp-main\\AutomotrizBack\\AutomotrizBack.csproj": {
+    "C:\\Users\\lucia\\OneDrive\\Escritorio\\Documentos\\2 año\\Automotriz\\AutomotrizApp-main\\AutomotrizBack\\AutomotrizBack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucia\\OneDrive\\Documentos\\2 año\\TP\\AutomotrizApp-main\\AutomotrizBack\\AutomotrizBack.csproj",
+        "projectUniqueName": "C:\\Users\\lucia\\OneDrive\\Escritorio\\Documentos\\2 año\\Automotriz\\AutomotrizApp-main\\AutomotrizBack\\AutomotrizBack.csproj",
         "projectName": "AutomotrizBack",
-        "projectPath": "C:\\Users\\lucia\\OneDrive\\Documentos\\2 año\\TP\\AutomotrizApp-main\\AutomotrizBack\\AutomotrizBack.csproj",
+        "projectPath": "C:\\Users\\lucia\\OneDrive\\Escritorio\\Documentos\\2 año\\Automotriz\\AutomotrizApp-main\\AutomotrizBack\\AutomotrizBack.csproj",
         "packagesPath": "C:\\Users\\lucia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucia\\OneDrive\\Documentos\\2 año\\TP\\AutomotrizApp-main\\AutomotrizBack\\obj\\",
+        "outputPath": "C:\\Users\\lucia\\OneDrive\\Escritorio\\Documentos\\2 año\\Automotriz\\AutomotrizApp-main\\AutomotrizBack\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucia\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,14 +40,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.Data.SqlClient": {
-              "target": "Package",
-              "version": "[5.1.2, )"
-            },
-            "Microsoft.ReportingServices.ReportViewerControl.Winforms": {
-              "target": "Package",
-              "version": "[150.1586.0, )"
-            },
             "Microsoft.SqlServer.Types": {
               "target": "Package",
               "version": "[160.1000.6, )"
@@ -77,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -30,7 +30,8 @@ namespace AutomotrizBack.Entidades
         public Presupuesto(int Id = 0, Cliente ClientePresupuesto = null, DateTime Fecha = new DateTime(), float Total = 0, DateTime FechaBaja = new DateTime(), List<Detalle> Detalles = null)
         {
             this.Id = Id;
-            this.ClientePresupuesto = ClientePresupuesto;
+            if(ClientePresupuesto == null) { this.clientePresupuesto = new Cliente(); }
+            else { this.clientePresupuesto = ClientePresupuesto; }
             this.Fecha = Fecha;
             this.Total = Total;
             this.FechaBaja = FechaBaja;

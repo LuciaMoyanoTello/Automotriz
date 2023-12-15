@@ -10,10 +10,7 @@ namespace AutomotrizApp.Fachada.Interfaz
     public interface IAplicacion
     {
         List<Producto> GetProductos();
-        List<Cliente> GetClientes();
-        bool Cliente(Cliente cliente);
         bool GuadarPresupuesto(Presupuesto presupuesto);
         bool Logeado(Cliente c);
-        bool InsertarProducto(Producto producto);
     }
 }

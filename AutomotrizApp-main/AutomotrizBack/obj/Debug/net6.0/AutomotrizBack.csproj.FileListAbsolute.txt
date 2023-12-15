@@ -15,11 +15,3 @@ C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizBack\
 C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizBack\obj\Debug\net6.0\refint\AutomotrizBack.dll
 C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizBack\obj\Debug\net6.0\AutomotrizBack.pdb
 C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizBack\obj\Debug\net6.0\ref\AutomotrizBack.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizBack\obj\Debug\net6.0\AutomotrizBack.csproj.AssemblyReference.cache
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizBack\obj\Debug\net6.0\AutomotrizBack.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizBack\obj\Debug\net6.0\AutomotrizBack.AssemblyInfoInputs.cache
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizBack\obj\Debug\net6.0\AutomotrizBack.AssemblyInfo.cs
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizBack\obj\Debug\net6.0\AutomotrizBack.csproj.CoreCompileInputs.cache
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizBack\obj\Debug\net6.0\AutomotrizBack.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizBack\obj\Debug\net6.0\refint\AutomotrizBack.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizBack\obj\Debug\net6.0\AutomotrizBack.pdb

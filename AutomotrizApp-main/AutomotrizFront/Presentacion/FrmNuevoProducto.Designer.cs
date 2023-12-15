@@ -28,178 +28,185 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnConfirmar = new System.Windows.Forms.Button();
-            this.lblTitulo = new System.Windows.Forms.Label();
-            this.lblTipoProducto = new System.Windows.Forms.Label();
-            this.lblPrecioProducto = new System.Windows.Forms.Label();
-            this.cboTipoProducto = new System.Windows.Forms.ComboBox();
-            this.txtPrecioProducto = new System.Windows.Forms.TextBox();
-            this.lblNombreProducto = new System.Windows.Forms.Label();
-            this.txtNombreProducto = new System.Windows.Forms.TextBox();
-            this.dgvConsultarProductos = new System.Windows.Forms.DataGridView();
-            this.idProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nombreProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.precioProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tipoProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnCancelar = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvConsultarProductos)).BeginInit();
-            this.SuspendLayout();
+            btnConfirmar = new Button();
+            lblTitulo = new Label();
+            lblTipoProducto = new Label();
+            lblPrecioProducto = new Label();
+            cboTipoProducto = new ComboBox();
+            txtPrecioProducto = new TextBox();
+            lblNombreProducto = new Label();
+            txtNombreProducto = new TextBox();
+            dgvConsultarProductos = new DataGridView();
+            idProducto = new DataGridViewTextBoxColumn();
+            nombreProducto = new DataGridViewTextBoxColumn();
+            precioProducto = new DataGridViewTextBoxColumn();
+            tipoProducto = new DataGridViewTextBoxColumn();
+            btnCancelar = new Button();
+            ((System.ComponentModel.ISupportInitialize)dgvConsultarProductos).BeginInit();
+            SuspendLayout();
             // 
             // btnConfirmar
             // 
-            this.btnConfirmar.Location = new System.Drawing.Point(683, 485);
-            this.btnConfirmar.Name = "btnConfirmar";
-            this.btnConfirmar.Size = new System.Drawing.Size(75, 23);
-            this.btnConfirmar.TabIndex = 3;
-            this.btnConfirmar.Text = "Confirmar";
-            this.btnConfirmar.UseVisualStyleBackColor = true;
-            this.btnConfirmar.Click += new System.EventHandler(this.btnConfirmar_Click);
+            btnConfirmar.Location = new Point(797, 560);
+            btnConfirmar.Margin = new Padding(4, 3, 4, 3);
+            btnConfirmar.Name = "btnConfirmar";
+            btnConfirmar.Size = new Size(88, 27);
+            btnConfirmar.TabIndex = 3;
+            btnConfirmar.Text = "Confirmar";
+            btnConfirmar.UseVisualStyleBackColor = true;
+            btnConfirmar.Click += btnConfirmar_Click;
             // 
             // lblTitulo
             // 
-            this.lblTitulo.AutoSize = true;
-            this.lblTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitulo.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.lblTitulo.Location = new System.Drawing.Point(12, 11);
-            this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(166, 25);
-            this.lblTitulo.TabIndex = 18;
-            this.lblTitulo.Text = "Nuevo Producto";
+            lblTitulo.AutoSize = true;
+            lblTitulo.Font = new Font("Microsoft Sans Serif", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            lblTitulo.ForeColor = SystemColors.ControlLight;
+            lblTitulo.Location = new Point(14, 13);
+            lblTitulo.Margin = new Padding(4, 0, 4, 0);
+            lblTitulo.Name = "lblTitulo";
+            lblTitulo.Size = new Size(166, 25);
+            lblTitulo.TabIndex = 18;
+            lblTitulo.Text = "Nuevo Producto";
             // 
             // lblTipoProducto
             // 
-            this.lblTipoProducto.AutoSize = true;
-            this.lblTipoProducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTipoProducto.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.lblTipoProducto.Location = new System.Drawing.Point(61, 126);
-            this.lblTipoProducto.Name = "lblTipoProducto";
-            this.lblTipoProducto.Size = new System.Drawing.Size(31, 15);
-            this.lblTipoProducto.TabIndex = 17;
-            this.lblTipoProducto.Text = "Tipo";
+            lblTipoProducto.AutoSize = true;
+            lblTipoProducto.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            lblTipoProducto.ForeColor = SystemColors.ControlLight;
+            lblTipoProducto.Location = new Point(71, 145);
+            lblTipoProducto.Margin = new Padding(4, 0, 4, 0);
+            lblTipoProducto.Name = "lblTipoProducto";
+            lblTipoProducto.Size = new Size(31, 15);
+            lblTipoProducto.TabIndex = 17;
+            lblTipoProducto.Text = "Tipo";
             // 
             // lblPrecioProducto
             // 
-            this.lblPrecioProducto.AutoSize = true;
-            this.lblPrecioProducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPrecioProducto.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.lblPrecioProducto.Location = new System.Drawing.Point(50, 91);
-            this.lblPrecioProducto.Name = "lblPrecioProducto";
-            this.lblPrecioProducto.Size = new System.Drawing.Size(42, 15);
-            this.lblPrecioProducto.TabIndex = 16;
-            this.lblPrecioProducto.Text = "Precio";
+            lblPrecioProducto.AutoSize = true;
+            lblPrecioProducto.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            lblPrecioProducto.ForeColor = SystemColors.ControlLight;
+            lblPrecioProducto.Location = new Point(58, 105);
+            lblPrecioProducto.Margin = new Padding(4, 0, 4, 0);
+            lblPrecioProducto.Name = "lblPrecioProducto";
+            lblPrecioProducto.Size = new Size(42, 15);
+            lblPrecioProducto.TabIndex = 16;
+            lblPrecioProducto.Text = "Precio";
             // 
             // cboTipoProducto
             // 
-            this.cboTipoProducto.FormattingEnabled = true;
-            this.cboTipoProducto.Location = new System.Drawing.Point(98, 125);
-            this.cboTipoProducto.Name = "cboTipoProducto";
-            this.cboTipoProducto.Size = new System.Drawing.Size(237, 21);
-            this.cboTipoProducto.TabIndex = 2;
+            cboTipoProducto.FormattingEnabled = true;
+            cboTipoProducto.Location = new Point(114, 144);
+            cboTipoProducto.Margin = new Padding(4, 3, 4, 3);
+            cboTipoProducto.Name = "cboTipoProducto";
+            cboTipoProducto.Size = new Size(276, 23);
+            cboTipoProducto.TabIndex = 2;
             // 
             // txtPrecioProducto
             // 
-            this.txtPrecioProducto.Location = new System.Drawing.Point(98, 90);
-            this.txtPrecioProducto.Name = "txtPrecioProducto";
-            this.txtPrecioProducto.Size = new System.Drawing.Size(237, 20);
-            this.txtPrecioProducto.TabIndex = 1;
-            this.txtPrecioProducto.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNumerico_KeyPress);
+            txtPrecioProducto.Location = new Point(114, 104);
+            txtPrecioProducto.Margin = new Padding(4, 3, 4, 3);
+            txtPrecioProducto.Name = "txtPrecioProducto";
+            txtPrecioProducto.Size = new Size(276, 23);
+            txtPrecioProducto.TabIndex = 1;
+            txtPrecioProducto.KeyPress += txtNumerico_KeyPress;
             // 
             // lblNombreProducto
             // 
-            this.lblNombreProducto.AutoSize = true;
-            this.lblNombreProducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombreProducto.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.lblNombreProducto.Location = new System.Drawing.Point(40, 56);
-            this.lblNombreProducto.Name = "lblNombreProducto";
-            this.lblNombreProducto.Size = new System.Drawing.Size(52, 15);
-            this.lblNombreProducto.TabIndex = 12;
-            this.lblNombreProducto.Text = "Nombre";
+            lblNombreProducto.AutoSize = true;
+            lblNombreProducto.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            lblNombreProducto.ForeColor = SystemColors.ControlLight;
+            lblNombreProducto.Location = new Point(47, 65);
+            lblNombreProducto.Margin = new Padding(4, 0, 4, 0);
+            lblNombreProducto.Name = "lblNombreProducto";
+            lblNombreProducto.Size = new Size(52, 15);
+            lblNombreProducto.TabIndex = 12;
+            lblNombreProducto.Text = "Nombre";
             // 
             // txtNombreProducto
             // 
-            this.txtNombreProducto.Location = new System.Drawing.Point(98, 55);
-            this.txtNombreProducto.Name = "txtNombreProducto";
-            this.txtNombreProducto.Size = new System.Drawing.Size(237, 20);
-            this.txtNombreProducto.TabIndex = 0;
+            txtNombreProducto.Location = new Point(114, 63);
+            txtNombreProducto.Margin = new Padding(4, 3, 4, 3);
+            txtNombreProducto.Name = "txtNombreProducto";
+            txtNombreProducto.Size = new Size(276, 23);
+            txtNombreProducto.TabIndex = 0;
             // 
             // dgvConsultarProductos
             // 
-            this.dgvConsultarProductos.AllowUserToAddRows = false;
-            this.dgvConsultarProductos.AllowUserToDeleteRows = false;
-            this.dgvConsultarProductos.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dgvConsultarProductos.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dgvConsultarProductos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvConsultarProductos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.idProducto,
-            this.nombreProducto,
-            this.precioProducto,
-            this.tipoProducto});
-            this.dgvConsultarProductos.Location = new System.Drawing.Point(12, 164);
-            this.dgvConsultarProductos.Name = "dgvConsultarProductos";
-            this.dgvConsultarProductos.ReadOnly = true;
-            this.dgvConsultarProductos.RowHeadersVisible = false;
-            this.dgvConsultarProductos.Size = new System.Drawing.Size(746, 300);
-            this.dgvConsultarProductos.TabIndex = 4;
+            dgvConsultarProductos.AllowUserToAddRows = false;
+            dgvConsultarProductos.AllowUserToDeleteRows = false;
+            dgvConsultarProductos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgvConsultarProductos.BorderStyle = BorderStyle.None;
+            dgvConsultarProductos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvConsultarProductos.Columns.AddRange(new DataGridViewColumn[] { idProducto, nombreProducto, precioProducto, tipoProducto });
+            dgvConsultarProductos.Location = new Point(14, 189);
+            dgvConsultarProductos.Margin = new Padding(4, 3, 4, 3);
+            dgvConsultarProductos.Name = "dgvConsultarProductos";
+            dgvConsultarProductos.ReadOnly = true;
+            dgvConsultarProductos.RowHeadersVisible = false;
+            dgvConsultarProductos.Size = new Size(870, 346);
+            dgvConsultarProductos.TabIndex = 4;
             // 
             // idProducto
             // 
-            this.idProducto.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.idProducto.HeaderText = "ID";
-            this.idProducto.Name = "idProducto";
-            this.idProducto.ReadOnly = true;
-            this.idProducto.Width = 43;
+            idProducto.AutoSizeMode = DataGridViewAutoSizeColumnMode.ColumnHeader;
+            idProducto.HeaderText = "ID";
+            idProducto.Name = "idProducto";
+            idProducto.ReadOnly = true;
+            idProducto.Width = 43;
             // 
             // nombreProducto
             // 
-            this.nombreProducto.HeaderText = "Nombre";
-            this.nombreProducto.Name = "nombreProducto";
-            this.nombreProducto.ReadOnly = true;
+            nombreProducto.HeaderText = "Nombre";
+            nombreProducto.Name = "nombreProducto";
+            nombreProducto.ReadOnly = true;
             // 
             // precioProducto
             // 
-            this.precioProducto.HeaderText = "Precio";
-            this.precioProducto.Name = "precioProducto";
-            this.precioProducto.ReadOnly = true;
+            precioProducto.HeaderText = "Precio";
+            precioProducto.Name = "precioProducto";
+            precioProducto.ReadOnly = true;
             // 
             // tipoProducto
             // 
-            this.tipoProducto.HeaderText = "Tipo";
-            this.tipoProducto.Name = "tipoProducto";
-            this.tipoProducto.ReadOnly = true;
+            tipoProducto.HeaderText = "Tipo";
+            tipoProducto.Name = "tipoProducto";
+            tipoProducto.ReadOnly = true;
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(12, 485);
-            this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(75, 23);
-            this.btnCancelar.TabIndex = 39;
-            this.btnCancelar.Text = "Cancelar";
-            this.btnCancelar.UseVisualStyleBackColor = true;
+            btnCancelar.Location = new Point(14, 560);
+            btnCancelar.Margin = new Padding(4, 3, 4, 3);
+            btnCancelar.Name = "btnCancelar";
+            btnCancelar.Size = new Size(88, 27);
+            btnCancelar.TabIndex = 39;
+            btnCancelar.Text = "Cancelar";
+            btnCancelar.UseVisualStyleBackColor = true;
+            btnCancelar.Click += btnCancelar_Click;
             // 
             // FrmNuevoProducto
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
-            this.ClientSize = new System.Drawing.Size(770, 520);
-            this.Controls.Add(this.btnCancelar);
-            this.Controls.Add(this.btnConfirmar);
-            this.Controls.Add(this.lblTitulo);
-            this.Controls.Add(this.lblTipoProducto);
-            this.Controls.Add(this.lblPrecioProducto);
-            this.Controls.Add(this.cboTipoProducto);
-            this.Controls.Add(this.txtPrecioProducto);
-            this.Controls.Add(this.lblNombreProducto);
-            this.Controls.Add(this.txtNombreProducto);
-            this.Controls.Add(this.dgvConsultarProductos);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "FrmNuevoProducto";
-            this.Text = "FrmNuevoProducto";
-            this.Load += new System.EventHandler(this.FrmNuevoProducto_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvConsultarProductos)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(43, 43, 43);
+            ClientSize = new Size(898, 600);
+            Controls.Add(btnCancelar);
+            Controls.Add(btnConfirmar);
+            Controls.Add(lblTitulo);
+            Controls.Add(lblTipoProducto);
+            Controls.Add(lblPrecioProducto);
+            Controls.Add(cboTipoProducto);
+            Controls.Add(txtPrecioProducto);
+            Controls.Add(lblNombreProducto);
+            Controls.Add(txtNombreProducto);
+            Controls.Add(dgvConsultarProductos);
+            FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(4, 3, 4, 3);
+            Name = "FrmNuevoProducto";
+            Text = "FrmNuevoProducto";
+            Load += FrmNuevoProducto_Load;
+            ((System.ComponentModel.ISupportInitialize)dgvConsultarProductos).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

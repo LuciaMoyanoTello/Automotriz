@@ -9,22 +9,32 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Presentacion\ReporteVenta\RptVenta.rdlc" />
+    <Compile Remove="Presentacion\ReporteVenta\**" />
+    <EmbeddedResource Remove="Presentacion\ReporteVenta\**" />
+    <None Remove="Presentacion\ReporteVenta\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Presentacion\ReporteVenta\RptVenta.rdlc" />
+    <None Remove="Presentacion\Reportes\Reporte1.rdlc" />
+    <None Remove="Presentacion\Reportes\Reporte1\RptVenta.rdlc" />
+    <None Remove="Presentacion\Reportes\Reporte2\Reporte2.rdlc" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.2" />
-    <PackageReference Include="Microsoft.ReportingServices.ReportViewerControl.Winforms" Version="150.1586.0" />
+    <EmbeddedResource Include="Presentacion\Reportes\Reporte1\RptVenta.rdlc" />
+    <EmbeddedResource Include="Presentacion\Reportes\Reporte2\Reporte2.rdlc" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.SqlServer.Types" Version="160.1000.6" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="ReportViewerCore.WinForms" Version="15.1.19" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AutomotrizApi\AutomotrizApi.csproj" />
+    <ProjectReference Include="..\AutomotrizApp\AutomotrizApp.csproj" />
     <ProjectReference Include="..\AutomotrizBack\AutomotrizBack.csproj" />
   </ItemGroup>
 
@@ -50,12 +60,12 @@
     <Compile Update="Presentacion\FrmPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Presentacion\ReporteVenta\DSReporte.Designer.cs">
+    <Compile Update="Presentacion\Reportes\Reporte2\DSReporte2.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
-      <DependentUpon>DSReporte.xsd</DependentUpon>
+      <DependentUpon>DSReporte2.xsd</DependentUpon>
     </Compile>
-    <Compile Update="Presentacion\ReporteVenta\FrmReporteVentas.cs">
+    <Compile Update="Presentacion\Reportes\Reporte2\FrmReporteVentas.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Properties\Resources.Designer.cs">
@@ -73,10 +83,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Presentacion\ReporteVenta\DSReporte.xsd">
-      <SubType>Designer</SubType>
-      <LastGenOutput>DSReporte.Designer.cs</LastGenOutput>
+    <None Update="Presentacion\Reportes\Reporte2\DSReporte2.xsd">
       <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSReporte2.Designer.cs</LastGenOutput>
     </None>
   </ItemGroup>
 

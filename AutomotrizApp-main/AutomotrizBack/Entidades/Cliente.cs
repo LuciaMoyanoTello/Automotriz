@@ -22,16 +22,18 @@ namespace AutomotrizBack.Entidades
         public string NombreCompleto    { get { return nombreCompleto; }    set { nombreCompleto = value; } }
         public string Dni               { get { return dni; }               set { dni = value; } }
         public string Telefono          { get { return telefono; }          set { telefono = value; } }
-        public string Usuario { get; set; }
-        public string Pass { get; set; }
+        public string Usuario           { get { return usuario; }           set { usuario = value; } }
+        public string Pass              { get { return pass; }              set { pass = value; } }
 
         //Constructor
-        public Cliente(int Id = -1, string NombreCompleto = "(Sin especificar)", string Dni = "(Sin especificar)", string Telefono = "(Sin especificar)")
+        public Cliente(int Id = -1, string NombreCompleto = "(Sin especificar)", string Dni = "(Sin especificar)", string Telefono = "(Sin especificar)", string Usuario = "user", string Pass = "pass")
         {
             this.Id = Id;
             this.NombreCompleto = NombreCompleto;
             this.Dni = Dni;
             this.Telefono = Telefono;
+            this.Usuario = Usuario;
+            this.Pass = Pass;
         }
 
 

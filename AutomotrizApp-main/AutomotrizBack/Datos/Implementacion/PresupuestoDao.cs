@@ -1,5 +1,5 @@
-﻿using AutomotrizApp.Datos.Interfaz;
-using AutomotrizApp.Entidades;
+﻿using AutomotrizBack.Datos.Interfaz;
+using AutomotrizBack.Entidades;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AutomotrizApp.Datos.Implementacion
+namespace AutomotrizBack.Datos.Implementacion
 {
     public class PresupuestoDao : IPresupuestoDao
     {
@@ -111,6 +111,14 @@ namespace AutomotrizApp.Datos.Implementacion
                 cliente.Dni = Convert.ToString(row["DNI"]);
                 cliente.Telefono = Convert.ToString(row["Telefono"]);
             }
+            return true;
+        }
+
+        bool IPresupuestoDao.EliminarPresupuesto(Presupuesto presupuesto)
+        {
+            List<Parametro> parametro = new List<Parametro>() { new Parametro("@input_id_presupuesto", presupuesto.Id) };
+
+            DBHelper.ObtenerInstancia().ConsultarSP("[SP_ELIMINAR_PRESUPUESTOS]", parametro);
             return true;
         }
 

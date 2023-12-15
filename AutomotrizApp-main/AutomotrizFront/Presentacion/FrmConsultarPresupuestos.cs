@@ -1,4 +1,7 @@
 ﻿using AutomotrizBack.Datos;
+using AutomotrizBack.Entidades;
+using AutomotrizBack.Servicios;
+using Newtonsoft.Json;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -85,16 +88,22 @@ namespace AutomotrizFront.Presentacion
         }
 
 
-        private void dgvConsultarPresupuestos_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private async void dgvConsultarPresupuestos_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             if (dgvConsultarPresupuestos.CurrentCell.OwningColumn.Name == "Eliminar")
             {
                 if (MessageBox.Show("¿Está seguro que desea eliminar el presupuesto de:\n\"" + Convert.ToString(dgvConsultarPresupuestos.CurrentRow.Cells["nombreCliente"].Value) + "\" por un total de $" + Convert.ToString(dgvConsultarPresupuestos.CurrentRow.Cells["totalPresupuesto"].Value) + " del listado?", "Confirmar Eliminación", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
                     int idPresupuesto = Convert.ToInt32(dgvConsultarPresupuestos.CurrentRow.Cells["idPresupuesto"].Value);
-                    List<Parametro> parametro = new List<Parametro>() { new Parametro("@input_id_presupuesto", idPresupuesto) };
+                    //List<Parametro> parametro = new List<Parametro>() { new Parametro("@input_id_presupuesto", idPresupuesto) };
 
-                    DBHelper.ObtenerInstancia().ConsultarSP("[SP_ELIMINAR_PRESUPUESTOS]", parametro); //Elimina de la base de datos
+                    //DBHelper.ObtenerInstancia().ConsultarSP("[SP_ELIMINAR_PRESUPUESTOS]", parametro); //Elimina de la base de datos
+                    Presupuesto presupuesto = new Presupuesto();
+                    presupuesto.Id = idPresupuesto;
+                    string bodyContent = JsonConvert.SerializeObject(presupuesto);
+
+                    string url = "https://localhost:7089/api/Presupuesto/DeletePresupuesto";
+                    var result = await ClienteSingleton.GetInstance().PostAsync(url, bodyContent);
                     dgvConsultarPresupuestos.Rows.Remove(dgvConsultarPresupuestos.CurrentRow); //Elimina del listado
                 }
             }

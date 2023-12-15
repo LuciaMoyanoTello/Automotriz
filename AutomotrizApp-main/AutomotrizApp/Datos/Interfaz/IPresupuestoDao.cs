@@ -11,7 +11,5 @@ namespace AutomotrizApp.Datos.Interfaz
     {
         bool CrearPresupuesto(Presupuesto presupuesto);
         List<Producto> ObtenerProductos();
-        List<Cliente> ObtenerCliente();
-        bool Cliente(Cliente cliente);
     }
 }

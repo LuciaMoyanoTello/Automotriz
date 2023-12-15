@@ -1,11 +1,11 @@
-﻿using AutomotrizApp.Entidades;
+﻿using AutomotrizBack.Entidades;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AutomotrizApp.Datos.Interfaz
+namespace AutomotrizBack.Datos.Interfaz
 {
     public interface IPresupuestoDao
     {
@@ -13,5 +13,6 @@ namespace AutomotrizApp.Datos.Interfaz
         List<Producto> ObtenerProductos();
         List<Cliente> ObtenerCliente();
         bool Cliente(Cliente cliente);
+        bool EliminarPresupuesto(Presupuesto presupuesto);
     }
 }

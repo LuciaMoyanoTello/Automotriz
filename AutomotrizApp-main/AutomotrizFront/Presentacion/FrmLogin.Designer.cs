@@ -45,7 +45,7 @@
             btnIngresar.FlatStyle = FlatStyle.Flat;
             btnIngresar.Font = new Font("Microsoft Sans Serif", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             btnIngresar.ForeColor = SystemColors.ControlLight;
-            btnIngresar.Location = new Point(128, 422);
+            btnIngresar.Location = new Point(102, 372);
             btnIngresar.Margin = new Padding(4, 3, 4, 3);
             btnIngresar.Name = "btnIngresar";
             btnIngresar.Size = new Size(128, 43);
@@ -58,7 +58,7 @@
             // 
             txtPassword.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point);
             txtPassword.ForeColor = Color.Gray;
-            txtPassword.Location = new Point(99, 344);
+            txtPassword.Location = new Point(73, 294);
             txtPassword.Margin = new Padding(4, 3, 4, 3);
             txtPassword.Name = "txtPassword";
             txtPassword.Size = new Size(186, 26);
@@ -72,7 +72,7 @@
             // 
             txtUser.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point);
             txtUser.ForeColor = Color.Gray;
-            txtUser.Location = new Point(98, 271);
+            txtUser.Location = new Point(72, 221);
             txtUser.Margin = new Padding(4, 3, 4, 3);
             txtUser.Name = "txtUser";
             txtUser.Size = new Size(186, 26);
@@ -88,7 +88,7 @@
             lblLoginError.AutoSize = true;
             lblLoginError.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
             lblLoginError.ForeColor = Color.FromArgb(226, 50, 50);
-            lblLoginError.Location = new Point(55, 389);
+            lblLoginError.Location = new Point(47, 338);
             lblLoginError.Margin = new Padding(4, 0, 4, 0);
             lblLoginError.Name = "lblLoginError";
             lblLoginError.Size = new Size(0, 16);
@@ -107,7 +107,7 @@
             cbPassword.FlatStyle = FlatStyle.Flat;
             cbPassword.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             cbPassword.Image = Properties.Resources.PassHideIcon;
-            cbPassword.Location = new Point(294, 344);
+            cbPassword.Location = new Point(263, 292);
             cbPassword.Margin = new Padding(0);
             cbPassword.Name = "cbPassword";
             cbPassword.Size = new Size(29, 29);
@@ -119,7 +119,7 @@
             // pbLogo
             // 
             pbLogo.Image = Properties.Resources.AutomotrizLogo;
-            pbLogo.Location = new Point(111, 95);
+            pbLogo.Location = new Point(85, 45);
             pbLogo.Margin = new Padding(4, 3, 4, 3);
             pbLogo.Name = "pbLogo";
             pbLogo.Size = new Size(162, 112);
@@ -131,7 +131,7 @@
             btnSalir.FlatAppearance.BorderSize = 0;
             btnSalir.FlatStyle = FlatStyle.Flat;
             btnSalir.Image = Properties.Resources.ExitIcon;
-            btnSalir.Location = new Point(356, 6);
+            btnSalir.Location = new Point(302, 4);
             btnSalir.Margin = new Padding(4, 3, 4, 3);
             btnSalir.Name = "btnSalir";
             btnSalir.Size = new Size(23, 23);
@@ -144,7 +144,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(43, 43, 43);
-            ClientSize = new Size(385, 531);
+            ClientSize = new Size(330, 460);
             Controls.Add(btnSalir);
             Controls.Add(cbPassword);
             Controls.Add(lblLoginError);

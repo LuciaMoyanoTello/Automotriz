@@ -1,5 +1,7 @@
 ﻿using AutomotrizBack.Datos;
 using AutomotrizBack.Entidades;
+using AutomotrizBack.Servicios;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -79,7 +81,7 @@ namespace AutomotrizFront.Presentacion
             FrmConsultarProductos_Load();
         }
 
-        private void dgvConsultarProductos_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private async void dgvConsultarProductos_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             //Editar un producto
             if (dgvConsultarProductos.CurrentCell.OwningColumn.Name == "Editar")
@@ -101,10 +103,15 @@ namespace AutomotrizFront.Presentacion
                 if (MessageBox.Show("¿Está seguro que desea eliminar:\n\"" + Convert.ToString(dgvConsultarProductos.CurrentRow.Cells["nombreProducto"].Value) + "\" del listado?", "Confirmar Eliminación", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
                     int idProducto = Convert.ToInt32(dgvConsultarProductos.CurrentRow.Cells["idProducto"].Value);
-                    List<Parametro> parametro = new List<Parametro>() { new Parametro("@input_id_producto", idProducto) };
+                    //List<Parametro> parametro = new List<Parametro>() { new Parametro("@input_id_producto", idProducto) };
 
-                    DBHelper.ObtenerInstancia().ConsultarSP("SP_ELIMINAR_PRODUCTOS", parametro); //Elimina de la base de datos
+                    //DBHelper.ObtenerInstancia().ConsultarSP("SP_ELIMINAR_PRODUCTOS", parametro); //Elimina de la base de datos
                     dgvConsultarProductos.Rows.Remove(dgvConsultarProductos.CurrentRow); //Elimina del listado
+                    Producto producto = new Producto(idProducto);
+                    string bodyContent = JsonConvert.SerializeObject(producto);
+
+                    string url = "https://localhost:7089/api/Producto/DeleteProducto";
+                    var result = await ClienteSingleton.GetInstance().PostAsync(url, bodyContent);
                 }
             }
         }

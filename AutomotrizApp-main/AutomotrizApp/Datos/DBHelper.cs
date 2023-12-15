@@ -50,7 +50,7 @@ namespace AutomotrizApp.Datos
         {
             if (Conexion == null)
             {
-                conexion = new SqlConnection(@"Data Source=DESKTOP-GE4ANJO\SQLEXPRESS;Initial Catalog=AutomotrizApp;Integrated Security=True");
+                conexion = new SqlConnection(@"Data Source=GALER-PC\SQLEXPRESS;Initial Catalog=AutomotrizApp;Integrated Security=True");
             }
             else
             {

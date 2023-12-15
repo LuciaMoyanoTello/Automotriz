@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucia\\OneDrive\\Documentos\\2 año\\TP\\AutomotrizApp-main\\AutomotrizApi\\AutomotrizApi.csproj": {}
+    "C:\\Users\\lucia\\OneDrive\\Escritorio\\Documentos\\2 año\\Automotriz\\AutomotrizApp-main\\AutomotrizApi\\AutomotrizApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucia\\OneDrive\\Documentos\\2 año\\TP\\AutomotrizApp-main\\AutomotrizApi\\AutomotrizApi.csproj": {
+    "C:\\Users\\lucia\\OneDrive\\Escritorio\\Documentos\\2 año\\Automotriz\\AutomotrizApp-main\\AutomotrizApi\\AutomotrizApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucia\\OneDrive\\Documentos\\2 año\\TP\\AutomotrizApp-main\\AutomotrizApi\\AutomotrizApi.csproj",
+        "projectUniqueName": "C:\\Users\\lucia\\OneDrive\\Escritorio\\Documentos\\2 año\\Automotriz\\AutomotrizApp-main\\AutomotrizApi\\AutomotrizApi.csproj",
         "projectName": "AutomotrizApi",
-        "projectPath": "C:\\Users\\lucia\\OneDrive\\Documentos\\2 año\\TP\\AutomotrizApp-main\\AutomotrizApi\\AutomotrizApi.csproj",
+        "projectPath": "C:\\Users\\lucia\\OneDrive\\Escritorio\\Documentos\\2 año\\Automotriz\\AutomotrizApp-main\\AutomotrizApi\\AutomotrizApi.csproj",
         "packagesPath": "C:\\Users\\lucia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucia\\OneDrive\\Documentos\\2 año\\TP\\AutomotrizApp-main\\AutomotrizApi\\obj\\",
+        "outputPath": "C:\\Users\\lucia\\OneDrive\\Escritorio\\Documentos\\2 año\\Automotriz\\AutomotrizApp-main\\AutomotrizApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucia\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\lucia\\OneDrive\\Documentos\\2 año\\TP\\AutomotrizApp-main\\AutomotrizApp\\AutomotrizApp.csproj": {
-                "projectPath": "C:\\Users\\lucia\\OneDrive\\Documentos\\2 año\\TP\\AutomotrizApp-main\\AutomotrizApp\\AutomotrizApp.csproj"
+              "C:\\Users\\lucia\\OneDrive\\Escritorio\\Documentos\\2 año\\Automotriz\\AutomotrizApp-main\\AutomotrizBack\\AutomotrizBack.csproj": {
+                "projectPath": "C:\\Users\\lucia\\OneDrive\\Escritorio\\Documentos\\2 año\\Automotriz\\AutomotrizApp-main\\AutomotrizBack\\AutomotrizBack.csproj"
               }
             }
           }
@@ -44,14 +44,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.Data.SqlClient": {
-              "target": "Package",
-              "version": "[5.1.2, )"
-            },
-            "Microsoft.ReportingServices.ReportViewerControl.Winforms": {
-              "target": "Package",
-              "version": "[150.1586.0, )"
-            },
             "Microsoft.SqlServer.Types": {
               "target": "Package",
               "version": "[160.1000.6, )"
@@ -88,23 +80,77 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\lucia\\OneDrive\\Documentos\\2 año\\TP\\AutomotrizApp-main\\AutomotrizApp\\AutomotrizApp.csproj": {
+    "C:\\Users\\lucia\\OneDrive\\Escritorio\\Documentos\\2 año\\Automotriz\\AutomotrizApp-main\\AutomotrizBack\\AutomotrizBack.csproj": {
+      "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucia\\OneDrive\\Documentos\\2 año\\TP\\AutomotrizApp-main\\AutomotrizApp\\AutomotrizApp.csproj",
-        "projectName": "AutomotrizApp",
-        "projectPath": "C:\\Users\\lucia\\OneDrive\\Documentos\\2 año\\TP\\AutomotrizApp-main\\AutomotrizApp\\AutomotrizApp.csproj",
+        "projectUniqueName": "C:\\Users\\lucia\\OneDrive\\Escritorio\\Documentos\\2 año\\Automotriz\\AutomotrizApp-main\\AutomotrizBack\\AutomotrizBack.csproj",
+        "projectName": "AutomotrizBack",
+        "projectPath": "C:\\Users\\lucia\\OneDrive\\Escritorio\\Documentos\\2 año\\Automotriz\\AutomotrizApp-main\\AutomotrizBack\\AutomotrizBack.csproj",
+        "packagesPath": "C:\\Users\\lucia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucia\\OneDrive\\Escritorio\\Documentos\\2 año\\Automotriz\\AutomotrizApp-main\\AutomotrizBack\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lucia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
         "frameworks": {
-          "net48": {
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
         }
       },
       "frameworks": {
-        "net48": {}
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.SqlServer.Types": {
+              "target": "Package",
+              "version": "[160.1000.6, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
       }
     }
   }

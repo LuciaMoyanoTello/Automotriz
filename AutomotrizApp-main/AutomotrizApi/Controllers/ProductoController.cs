@@ -1,6 +1,6 @@
-﻿using AutomotrizApp.Entidades;
-using AutomotrizApp.Fachada.Implementacion;
-using AutomotrizApp.Fachada.Interfaz;
+﻿using AutomotrizBack.Entidades;
+using AutomotrizBack.Fachada.Implementacion;
+using AutomotrizBack.Fachada.Interfaz;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -15,12 +15,42 @@ namespace AutomotrizApi.Controllers
         {
             app = new Aplicacion();
         }
-        [HttpPost("PostProducto")]
-        public IActionResult PostProducto(Producto p)
+        [HttpPost("InsertProducto")]
+        public IActionResult InsertProducto(Producto p)
         {
             try
             {
-                return Ok(app.InsertarProducto(p));
+                app.InsertarProducto(p);
+                return Ok();
+            }
+            catch
+            {
+                return BadRequest("Error del servidor");
+            }
+        }
+
+        [HttpPost("UpdateProducto")]
+        public IActionResult UpdateProducto(Producto p)
+        {
+            try
+            {
+                app.ActualizarProducto(p);
+                return Ok();
+            }
+            catch
+            {
+                return BadRequest("Error del servidor");
+            }
+        }
+
+
+        [HttpPost("DeleteProducto")]
+        public IActionResult DeleteProducto(Producto p)
+        {
+            try
+            {
+                app.EliminarProducto(p);
+                return Ok();
             }
             catch
             {

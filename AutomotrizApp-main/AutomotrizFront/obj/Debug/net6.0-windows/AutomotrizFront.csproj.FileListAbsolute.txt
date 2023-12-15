@@ -5,53 +5,12 @@ C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront
 C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizFront.pdb
 C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.ReportViewer.Common.dll
 C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.ReportViewer.DataVisualization.dll
-C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.ReportViewer.Design.dll
 C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.ReportViewer.ProcessingObjectModel.dll
 C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.ReportViewer.WinForms.dll
 C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
 C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.SqlServer.Types.dll
 C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
 C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
-C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\de\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\de\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\de\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\de\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\es\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\es\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\es\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\es\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\fr\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\fr\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\fr\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\it\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\it\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\it\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\it\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\ja\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\ja\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\ja\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\ko\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\ko\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\ko\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\pt\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\pt\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\pt\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\ru\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\ru\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\ru\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
 C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\de\Microsoft.SqlServer.Types.resources.dll
 C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\es\Microsoft.SqlServer.Types.resources.dll
 C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\fr\Microsoft.SqlServer.Types.resources.dll
@@ -79,7 +38,6 @@ C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront
 C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentacion.FrmNuevoPresupuesto.resources
 C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentacion.FrmNuevoProducto.resources
 C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.FrmPrincipal.resources
-C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentacion.ReporteVenta.FrmReporteVentas.resources
 C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Properties.Resources.resources
 C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.csproj.GenerateResource.cache
 C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.GeneratedMSBuildEditorConfig.editorconfig
@@ -92,120 +50,49 @@ C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront
 C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.pdb
 C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.genruntimeconfig.cache
 C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\obj\Debug\net6.0-windows\ref\AutomotrizFront.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizFront.exe
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizFront.deps.json
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizFront.runtimeconfig.json
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizFront.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizFront.pdb
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\Azure.Core.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\Azure.Identity.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.ReportViewer.Common.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.ReportViewer.DataVisualization.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.ReportViewer.Design.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.ReportViewer.ProcessingObjectModel.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.ReportViewer.WinForms.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.SqlServer.Types.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\System.Memory.Data.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\de\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\de\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\de\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\de\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\es\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\es\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\es\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\es\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\fr\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\fr\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\fr\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\it\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\it\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\it\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\it\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\ja\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\ja\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\ja\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\ko\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\ko\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\ko\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\pt\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\pt\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\pt\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\ru\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\ru\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\ru\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\de\Microsoft.SqlServer.Types.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\es\Microsoft.SqlServer.Types.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\fr\Microsoft.SqlServer.Types.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\it\Microsoft.SqlServer.Types.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\ja\Microsoft.SqlServer.Types.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\ko\Microsoft.SqlServer.Types.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\pt-BR\Microsoft.SqlServer.Types.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\ru\Microsoft.SqlServer.Types.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\zh-Hans\Microsoft.SqlServer.Types.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\zh-Hant\Microsoft.SqlServer.Types.resources.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\runtimes\win-x64\native\SqlServerSpatial160.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\runtimes\win-x86\native\SqlServerSpatial160.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizBack.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizBack.pdb
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.csproj.AssemblyReference.cache
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentacion.FrmAcercaDe.resources
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentacion.FrmConsultarPresupuestos.resources
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentacion.FrmConsultarProductos.resources
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentacion.FrmLogin.resources
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentacion.FrmNuevoPresupuesto.resources
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentacion.FrmNuevoProducto.resources
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.FrmPrincipal.resources
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentacion.ReporteVenta.FrmReporteVentas.resources
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Properties.Resources.resources
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.csproj.GenerateResource.cache
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.AssemblyInfoInputs.cache
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.AssemblyInfo.cs
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.csproj.CoreCompileInputs.cache
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.csproj.CopyComplete
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\obj\Debug\net6.0-windows\refint\AutomotrizFront.dll
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.pdb
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.genruntimeconfig.cache
-C:\Users\lucia\OneDrive\Documentos\2 año\TP\AutomotrizApp-main\AutomotrizFront\obj\Debug\net6.0-windows\ref\AutomotrizFront.dll
+C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\x86\SqlServerSpatial160.dll
+C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\x64\SqlServerSpatial160.dll
+C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizApp.exe
+C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizApp.pdb
+C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizApp.exe.config
+C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.dll
+C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentacion.Reportes.Reporte1.FrmReporteVentas.resources
+C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentacion.Reportes.Reporte2.FrmReporte2.resources
+C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizApi.deps.json
+C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizApi.runtimeconfig.json
+C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\appsettings.Development.json
+C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\appsettings.json
+C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizApi.exe
+C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.OpenApi.dll
+C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizApi.dll
+C:\Users\gabyd\Desktop\Repositorio Programacion II\AutomotrizApp\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizApi.pdb
